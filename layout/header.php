@@ -40,7 +40,7 @@
                         </div>
                     </div>
                 </div>
-                <div class='col-sm-3 offset-sm-9 small-nav-link hidden-md-up'>
-                    <a href='#' id='navOverlay'><i class='fa fa-bars'></i></a>
+                <div class='col-sm-12 hidden-md-up text-center small-nav-link'>
+                    John and Lena <a href='#' id='navOverlay'><i class='fa fa-bars'></i></a>
                 </div>
             </div>
