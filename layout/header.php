@@ -19,7 +19,7 @@
         <div class='container-fluid'>
             <div class='row top-nav'>
                 <div class='col-md-12 hidden-sm-down'>
-                    <div class='row'>
+                    <div class='row big-nav'>
                         <div class='col-md-2 nav-brand'>
                             John and Lena
                         </div>

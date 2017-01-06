@@ -8,71 +8,71 @@
 
 //big nav links
 
-.top-nav .big-nav-link{
+.big-nav > .big-nav-link{
     text-align: center;
     font-size: 2em;
     font-weight: bold;
 }
 
-.top-nav .big-nav-link a{
+.big-nav > .big-nav-link a{
     text-decoration:  none;
     color:            black;
 }
 
-.top-nav .big-nav-link a:link{
+.big-nav > .big-nav-link a:link{
     text-decoration:  none;
     color:            black;
 }
 
-.top-nav .big-nav-link a:visited{
+.big-nav > .big-nav-link a:visited{
     text-decoration:  none;
     color:            black;
 }
 
-.top-nav .big-nav-link a:hover{
+.big-nav > .big-nav-link a:hover{
     text-decoration:  none;
     color:            black;
 }
 
-.top-nav .big-nav-link a:active{
+.big-nav > .big-nav-link a:active{
     text-decoration:  none;
     color:            black;
 }
 
 // small nav links
 
-.top-nav .small-nav-link{
+.small-nav-link{
     text-align: right;
     font-weight: bold;
 }
 
-.top-nav .small-nav-link i{
+.small-nav-link i{
     text-align: right;
     font-size: 3em;
     font-weight: bold;
 }
 
-.top-nav .small-nav-link a{
+.small-nav-link a{
     text-decoration:  none;
     color:            black;
 }
 
-.top-nav .small-nav-link a:link{
+.small-nav-link a:link{
     text-decoration:  none;
     color:            black;
 }
 
-.top-nav .small-nav-link a:visited{
+.small-nav-link a:visited{
     text-decoration:  none;
     color:            black;
 }
 
-.top-nav .small-nav-link a:hover{
+.small-nav-link a:hover{
     text-decoration:  none;
     color:            black;
 }
 
-.top-nav .small-nav-link a:active{
+.small-nav-link a:active{
     text-decoration:  none;
     color:            black;
 }
