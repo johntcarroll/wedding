@@ -15,3 +15,30 @@
         <script type='text/javascript' src='<?php echo $root; ?>js/jquery.min.js'></script>
     </head>
     <body>
+        <div class='row top-nav'>
+            <div class='col-md-12 hidden-sm-down'>
+                <div class='row'>
+                    <div class='col-md-2 col-md-offset-1'>
+                        Brand
+                    </div>
+                    <div class='col-md-1 big-nav-link'>
+                        <a href='<?php echo $root; ?>story/'>Our Story</a>
+                    </div>
+                    <div class='col-md-1 big-nav-link'>
+                        <a href='<?php echo $root; ?>party/'>Wedding Party</a>
+                    </div>
+                    <div class='col-md-1 big-nav-link'>
+                        <a href='<?php echo $root; ?>schedule/'>Wedding Day Schedule</a>
+                    </div>
+                    <div class='col-md-1 big-nav-link'>
+                        <a href='<?php echo $root; ?>accomodations/'>Accomodations</a>
+                    </div>
+                    <div class='col-md-1 big-nav-link'>
+                        <a href='<?php echo $root; ?>registry/'>Registry</a>
+                    </div>
+                </div>
+            </div>
+            <div class='col-sm-3 col-sm-offset-9'>
+                
+            </div>
+        </div>
