@@ -41,6 +41,33 @@
                     </div>
                 </div>
                 <div class='col-sm-12 hidden-md-up small-nav-link'>
-                    John and Lena <a href='#' id='navOverlay'><i class='fa fa-bars'></i></a>
+                    John and Lena <a href='#' id='nav-overlay'><i class='fa fa-bars'></i></a>
+                </div>
+            </div>
+            <div id="fullscreen-menu" class='hidden'>
+                <div class='row'>
+                    <div class='col-xs-12 overlay-header'>
+                        John and Lena <a href='#' id='nav-close-overlay'><i class='fa fa-times'></i></a>
+                    </div>
+                </div>
+                <div class='row overlay-menu'>
+                    <div class='col-xs-12'>
+                        <h2>Menu:</h2>
+                    </div>
+                    <div class='col-xs-12'>
+                        <a href='<?php echo $root; ?>story/'>Our Story</a>
+                    </div>
+                    <div class='col-xs-12'>
+                        <a href='<?php echo $root; ?>party/'>Wedding Party</a>
+                    </div>
+                    <div class='col-xs-12'>
+                        <a href='<?php echo $root; ?>schedule/'>Schedule</a>
+                    </div>
+                    <div class='col-xs-12'>
+                        <a href='<?php echo $root; ?>accomodations/'>Accomodations</a>
+                    </div>
+                    <div class='col-xs-12'>
+                        <a href='<?php echo $root; ?>registry/'>Registry</a>
+                    </div>
                 </div>
             </div>
