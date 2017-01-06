@@ -10,7 +10,7 @@
 
 .top-nav .big-nav-link{
     text-align: center;
-    font-size: large;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -43,13 +43,12 @@
 
 .top-nav .small-nav-link{
     text-align: right;
-    font-size: large;
     font-weight: bold;
 }
 
 .top-nav .small-nav-link i{
     text-align: right;
-    font-size: 5em;
+    font-size: 3em;
     font-weight: bold;
 }
 
