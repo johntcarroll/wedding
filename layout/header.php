@@ -40,7 +40,7 @@
                         </div>
                     </div>
                 </div>
-                <div class='col-sm-3 col-sm-offset-9 small-nav-link hidden-md-up'>
-                    <a href='#' id='navOverlay'><span class='fa fa-bars'</a>
+                <div class='col-sm-3 sm-offset-9 small-nav-link hidden-md-up'>
+                    <a href='#' id='navOverlay'><i class='fa fa-bars'></i></a>
                 </div>
             </div>
