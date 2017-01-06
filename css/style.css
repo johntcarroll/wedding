@@ -41,38 +41,38 @@
 
 // small nav links
 
-.small-nav-link{
+.top-nav > .small-nav-link{
     text-align: center;
     font-weight: bold;
 }
 
-.small-nav-link i{
+.top-nav > .small-nav-link i{
     float: right;
     font-size: 3em;
     font-weight: bold;
 }
 
-.small-nav-link a{
+.top-nav > .small-nav-link a{
     text-decoration:  none;
     color:            black;
 }
 
-.small-nav-link a:link{
+.top-nav > .small-nav-link a:link{
     text-decoration:  none;
     color:            black;
 }
 
-.small-nav-link a:visited{
+.top-nav > .small-nav-link a:visited{
     text-decoration:  none;
     color:            black;
 }
 
-.small-nav-link a:hover{
+.top-nav > .small-nav-link a:hover{
     text-decoration:  none;
     color:            black;
 }
 
-.small-nav-link a:active{
+.top-nav > .small-nav-link a:active{
     text-decoration:  none;
     color:            black;
 }
