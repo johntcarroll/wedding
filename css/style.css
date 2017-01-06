@@ -42,13 +42,13 @@
 // small nav links
 
 .top-nav .small-nav-link{
-    text-align: center;
+    text-align: right;
     font-size: large;
     font-weight: bold;
 }
 
 .top-nav .small-nav-link i{
-    text-align: center;
+    text-align: right;
     font-size: 5em;
     font-weight: bold;
 }
