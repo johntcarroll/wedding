@@ -10,8 +10,8 @@
         <meta property="og:image" content="">
         <meta name="description" content='Our wedding website!'>
         <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/bootstrap.min.css'>
-        <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/style.css'>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/style.css'>
         <script type='text/javascript' src='<?php echo $root; ?>js/bootstrap.min.js'></script>
         <script type='text/javascript' src='<?php echo $root; ?>js/jquery.min.js'></script>
     </head>
