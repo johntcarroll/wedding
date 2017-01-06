@@ -14,6 +14,7 @@
         <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/style.css'>
         <script type='text/javascript' src='<?php echo $root; ?>js/bootstrap.min.js'></script>
         <script type='text/javascript' src='<?php echo $root; ?>js/jquery.min.js'></script>
+        <script type='text/javascript' src='<?php echo $root; ?>js/header.js'></script>
     </head>
     <body>
         <div class='container-fluid'>
