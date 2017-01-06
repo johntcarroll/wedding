@@ -11,6 +11,7 @@
         <meta name="description" content='Our wedding website!'>
         <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/bootstrap.min.css'>
         <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/style.css'>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <script type='text/javascript' src='<?php echo $root; ?>js/bootstrap.min.js'></script>
         <script type='text/javascript' src='<?php echo $root; ?>js/jquery.min.js'></script>
     </head>
@@ -29,7 +30,7 @@
                             <a href='<?php echo $root; ?>party/'>Wedding Party</a>
                         </div>
                         <div class='col-md-2 big-nav-link'>
-                            <a href='<?php echo $root; ?>schedule/'>Wedding Day Schedule</a>
+                            <a href='<?php echo $root; ?>schedule/'>Schedule</a>
                         </div>
                         <div class='col-md-2 big-nav-link'>
                             <a href='<?php echo $root; ?>accomodations/'>Accomodations</a>
@@ -39,7 +40,7 @@
                         </div>
                     </div>
                 </div>
-                <div class='col-sm-3 col-sm-offset-9'>
-
+                <div class='col-sm-3 col-sm-offset-9 small-nav-link'>
+                    <a href='#' id='navOverlay'><span class='fa fa-bars'</a>
                 </div>
             </div>

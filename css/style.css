@@ -6,6 +6,8 @@
     height: 50px;
 }
 
+//big nav links
+
 .top-nav .big-nav-link{
     text-align: center;
     font-size: large;
@@ -33,6 +35,39 @@
 }
 
 .top-nav .big-nav-link a:active{
+    text-decoration:  none;
+    color:            black;
+}
+
+// small nav links
+
+.top-nav .small-nav-link{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.top-nav .small-nav-link a{
+    text-decoration:  none;
+    color:            black;
+}
+
+.top-nav .small-nav-link a:link{
+    text-decoration:  none;
+    color:            black;
+}
+
+.top-nav .small-nav-link a:visited{
+    text-decoration:  none;
+    color:            black;
+}
+
+.top-nav .small-nav-link a:hover{
+    text-decoration:  none;
+    color:            black;
+}
+
+.top-nav .small-nav-link a:active{
     text-decoration:  none;
     color:            black;
 }
