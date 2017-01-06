@@ -18,9 +18,9 @@
         <div class='container-fluid'>
             <div class='row top-nav'>
                 <div class='col-md-12 hidden-sm-down'>
-                    <div class='row'>
-                        <div class='col-md-1 offset-md-1'>
-                            Brand
+                    <div class='row text-center'>
+                        <div class='col-md-2 nav-brand'>
+                            John and Lena
                         </div>
                         <div class='col-md-2 big-nav-link'>
                             <a href='<?php echo $root; ?>story/'>Our Story</a>
