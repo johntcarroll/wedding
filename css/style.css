@@ -42,12 +42,11 @@
 // small nav links
 
 .small-nav-link{
-    text-align: right;
     font-weight: bold;
 }
 
 .small-nav-link i{
-    text-align: right;
+    float: right;
     font-size: 3em;
     font-weight: bold;
 }
