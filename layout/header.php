@@ -9,9 +9,9 @@
         <meta property="og:description" content="Our wedding website!">
         <meta property="og:image" content="">
         <meta name="description" content='Our wedding website!'>
-        <link rel='stylesheet' type='text/css' href='/css/bootstrap.min.css'>
-        <link rel='stylesheet' type='text/css' href='/css/style.css'>
-        <script type='text/javascript' src='/js/bootstrap.min.js'></script>
-        <script type='text/javascript' src='/js/jquery.min.js'></script>
+        <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/bootstrap.min.css'>
+        <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/style.css'>
+        <script type='text/javascript' src='<?php echo $root; ?>js/bootstrap.min.js'></script>
+        <script type='text/javascript' src='<?php echo $root; ?>js/jquery.min.js'></script>
     </head>
     <body>
