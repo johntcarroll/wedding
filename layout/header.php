@@ -45,7 +45,7 @@
                     John and Lena <a href='#' id='nav-overlay'><i class='fa fa-bars'></i></a>
                 </div>
             </div>
-            <div id="fullscreen-menu" class='hidden-xl-down'>
+            <div class='fullscreen-menu hidden-xl-down'>
                 <div class='row'>
                     <div class='col-xs-12 overlay-header'>
                         John and Lena <a href='#' id='nav-close-overlay'><i class='fa fa-times'></i></a>
