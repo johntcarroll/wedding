@@ -18,22 +18,22 @@
         <div class='row top-nav'>
             <div class='col-md-12 hidden-sm-down'>
                 <div class='row'>
-                    <div class='col-md-2 col-md-offset-1'>
+                    <div class='col-md-1 col-md-offset-1'>
                         Brand
                     </div>
-                    <div class='col-md-1 big-nav-link'>
+                    <div class='col-md-2 big-nav-link'>
                         <a href='<?php echo $root; ?>story/'>Our Story</a>
                     </div>
-                    <div class='col-md-1 big-nav-link'>
+                    <div class='col-md-2 big-nav-link'>
                         <a href='<?php echo $root; ?>party/'>Wedding Party</a>
                     </div>
-                    <div class='col-md-1 big-nav-link'>
+                    <div class='col-md-2 big-nav-link'>
                         <a href='<?php echo $root; ?>schedule/'>Wedding Day Schedule</a>
                     </div>
-                    <div class='col-md-1 big-nav-link'>
+                    <div class='col-md-2 big-nav-link'>
                         <a href='<?php echo $root; ?>accomodations/'>Accomodations</a>
                     </div>
-                    <div class='col-md-1 big-nav-link'>
+                    <div class='col-md-2 big-nav-link'>
                         <a href='<?php echo $root; ?>registry/'>Registry</a>
                     </div>
                 </div>
