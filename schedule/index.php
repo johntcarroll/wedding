@@ -9,7 +9,7 @@ include "../layout/header.php";
     </div>
 </div>
 
-<div id='timeline-view' class="hidden-xs hidden-sm">
+<div id='timeline-view' class="hidden-xs hidden-sm pad-bottom-20">
     <div class="row">
         <div class="col-md-12 text-center">
             <h1>Saturday</h1><br/>
@@ -101,7 +101,7 @@ include "../layout/header.php";
     </div>    
 </div>
 
-<div id='simple-view' class='hidden-md hidden-lg'>
+<div id='simple-view' class='hidden-md hidden-lg pad-bottom-20'>
     <div class='row pad-bottom-10'>
         <div class='col-xs-12 text-center'>
             <h1>Saturday</h1><br/>

@@ -11,7 +11,7 @@
         <meta name="description" content='Our wedding website!'>
         <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/bootstrap.min.css'>
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/style.css'>
         <script type='text/javascript' src='<?php echo $root; ?>js/jquery.min.js'></script>
         <script type='text/javascript' src='<?php echo $root; ?>js/bootstrap.min.js'></script>
@@ -40,37 +40,46 @@
                     <a class='overlay-link before after' href='<?php echo $root; ?>accommodations/'>Accommodations</a>
                 </div>
                 <div class='col-xs-12 overlay-menu'>
+                    <a class='overlay-link before after' href='<?php echo $root; ?>nearby/'>Nearby</a>
+                </div>
+                <div class='col-xs-12 overlay-menu'>
                     <a class='overlay-link before after' href='<?php echo $root; ?>registry/'>Registry</a>
                 </div>
             </div>
             <div class='row top-nav'>
                 <div class='col-md-12  hidden-md hidden-sm hidden-xs'>
                     <div class='row big-nav'>
-                        <div class='col-md-4 big-nav-link vcenter'>
-                            <h1>John and Lena</h1>
-                        </div>
-                        <div class='col-md-1 big-nav-link vcenter'>
+                        <div class='col-md-3 big-nav-link vcenter'>
+                            <a class='brand-link' href="<?php echo $root; ?>home/"><h1>John and Lena</h1></a>
+                        </div><!--
+                     --><div class='col-md-1 big-nav-link vcenter'>
                             <a class='header-link before after' href='<?php echo $root; ?>story/'>Our Story</a>
-                        </div>
-                        <div class='col-md-1 big-nav-link vcenter'>
+                        </div><!--
+                     --><div class='col-md-1 big-nav-link vcenter'>
                             <a class='header-link before after' href='<?php echo $root; ?>party/'>Wedding Party</a>
-                        </div>
-                        <div class='col-md-1 big-nav-link vcenter'>
+                        </div><!--
+                     --><div class='col-md-1 big-nav-link vcenter'>
                             <a class='header-link before after' href='<?php echo $root; ?>schedule/'>Schedule</a>
-                        </div>
-                        <div class='col-md-1 big-nav-link vcenter'>
+                        </div><!--
+                     --><div class='col-md-1 big-nav-link vcenter'>
                             <a class='header-link before after' href='<?php echo $root; ?>accommodations/'>Accommodations</a>
-                        </div>
-                        <div class='col-md-1 big-nav-link vcenter'>
+                        </div><!--
+                     --><div class='col-md-1 big-nav-link vcenter'>
+                            <a class='header-link before after' href='<?php echo $root; ?>nearby/'>Nearby</a>
+                         </div><!--
+                     --><div class='col-md-1 big-nav-link vcenter'>
                             <a class='header-link before after' href='<?php echo $root; ?>registry/'>Registry</a>
+                        </div><!--
+                     --><div class='col-md-1 col-md-offet-1 vcenter'>
+                         <h3>#RohlinWithTheCarrolls</h3>
                         </div>
                     </div>
                 </div>
                 <div class='row hidden-lg top-nav big-nav'>
-                    <div class='col-xs-4 big-nav-link vcenter'>
-                        <h1>John and Lena</h1>
+                    <div class='col-xs-10 big-nav-link vcenter'>
+                        <a class='brand-link' href="<?php echo $root; ?>home/"><h1>John and Lena</h1></a>
                     </div><!--
-                 --><div class="col-xs-8 small-nav-link vcenter">
+                 --><div class="col-xs-2 small-nav-link vcenter">
                         <a href='#' id='nav-overlay'><span class='glyphicon glyphicon-menu-hamburger'></span></a>
                     </div>
                 </div>

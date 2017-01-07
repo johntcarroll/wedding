@@ -35,7 +35,24 @@ h1, h2, h3, h4{
    padding-bottom: 10px;
 }
 
+ul{
+    list-style: none;
+}
+
+ul > li{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid grey;
+}
+
 /* NAV BAR */
+
+.brand-link{
+    text-decoration: none;
+}
 
 .top-nav{
     background-color:whitesmoke;
@@ -395,3 +412,28 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 .event-row{
     border-bottom: 1px solid grey;
 }
+
+/* footer */
+
+.footer-row{
+    background-color: whitesmoke;
+    border-top: 1px solid grey;
+    margin-top: 10px;
+}
+
+.header-link{
+    color: black;
+}
+
+.img-small{
+    max-height: 200px;
+    width: auto;
+}
+
+/* Home */
+
+.home-reg-img{
+    max-height: 350px;
+    width: auto;
+}
+
