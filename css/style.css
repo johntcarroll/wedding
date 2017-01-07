@@ -27,6 +27,14 @@ h1, h2, h3, h4{
    padding-bottom: 20px;
 }
 
+.pad-top-10{
+   padding-top: 10px;
+}
+
+.pad-bottom-10{
+   padding-bottom: 10px;
+}
+
 /* NAV BAR */
 
 .top-nav{
@@ -335,4 +343,55 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 
 #grooms-party{
     display: none;
+}
+
+/* Schedule */
+
+.timeline-row > .line-right{
+    border-right: 4px solid black;
+}
+
+.timeline-row > .line-top{
+    border-top: 4px solid black;
+}
+
+.timeline-row > .line-bottom{
+    border-bottom: 4px solid black;
+}
+
+.timeline-row > .line-left{
+    border-left: 4px solid black;
+}
+
+.event-details{
+    padding-top: 110px;
+}
+
+.event-details.left{
+    padding-left: 40px;
+}
+.event-details.right{
+    padding-right: 40px;
+    text-align: right;
+}
+
+.top-bottom{
+    height: 100px;
+}
+
+.middle{
+    height: 400px;
+}
+
+.timeline-row > .timeline-cell{
+    height: 100%;
+}
+
+.timeline-img{
+    height: 100%;
+    width: auto;
+}
+
+.event-row{
+    border-bottom: 1px solid grey;
 }
