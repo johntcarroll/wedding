@@ -1,17 +1,134 @@
-//SITE 
+/* SITE */
 
-// NAV BAR
-
-.top-nav{
-    height: 50px;
+body{
+    font-family: Raleway;
 }
 
-//big nav links
+h1, h2, h3, h4{
+    font-family: 'Dancing Script', cursive;
+    display: inline;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.img-center{
+    margin: 0 auto;
+}
+
+/* NAV BAR */
+
+.top-nav{
+    background-color:whitesmoke;
+}
+
+/* Header Nav Links */
+a.header-link,a.header-link:visited,a.header-link:hover,a.header-link:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+	position:relative;
+  transition:0.5s color ease;
+	text-decoration:none;
+}
+a.header-link:hover{
+	color: black;
+}
+a.header-link.before:before,a.header-link.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+
+/* Padding between decoration and text */
+a.header-link.before:before{
+  top:-0.25em;
+}
+a.header-link.after:after{
+  bottom:-0.25em;
+}
+
+/* Decoration style */
+a.header-link.before:before,a.header-link.after:after{ 
+  height:5px;
+  height:0.12rem;
+  width:0;
+  background:black;
+}
+a.header-link:before,a.header-link:after{
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+a.header-link.before:hover:before,a.header-link.after:hover:after{
+  width:100%;
+}
+
+/* Overlay Nav Links */
+
+a.overlay-link,a.overlay-link:visited,a.overlay-link:hover,a.overlay-link:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+	position:relative;
+  transition:0.5s color ease;
+	text-decoration:none;
+}
+a.overlay-link:hover{
+	color: white;
+}
+a.overlay-link.before:before,a.overlay-link.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+
+/* Padding between decoration and text */
+a.overlay-link.before:before{
+  top:-0.25em;
+}
+a.overlay-link.after:after{
+  bottom:-0.25em;
+}
+
+/* Decoration style */
+a.overlay-link.before:before,a.overlay-link.after:after{ 
+  height:5px;
+  height:0.12rem;
+  width:0;
+  background:white;
+}
+a.overlay-link:before,a.overlay-link:after{
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
+  width:100%;
+}
+
+/* big nav links */
 
 .big-nav > .big-nav-link{
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
+}
+
+.top-nav > .small-nav-link {
+    text-align: right;
+    padding-right:15px;
+}
+
+.top-nav > .small-nav-link a{
     font-size: 2em;
-    font-weight: bold;
+    text-decoration:  none;
+    color: black;
 }
 
 .big-nav > .big-nav-link a{
@@ -39,91 +156,134 @@
     color:            black;
 }
 
-// small nav links
+/* overlay nav */
 
-.top-nav > .small-nav-link{
-    text-align: center;
-    font-weight: bold;
-}
-
-.top-nav > .small-nav-link i{
-    float: right;
-    font-size: 3em;
-    font-weight: bold;
-}
-
-.top-nav > .small-nav-link a{
-    text-decoration:  none;
-    color:            black;
-}
-
-.top-nav > .small-nav-link a:link{
-    text-decoration:  none;
-    color:            black;
-}
-
-.top-nav > .small-nav-link a:visited{
-    text-decoration:  none;
-    color:            black;
-}
-
-.top-nav > .small-nav-link a:hover{
-    text-decoration:  none;
-    color:            black;
-}
-
-.top-nav > .small-nav-link a:active{
-    text-decoration:  none;
-    color:            black;
-}
-
-//overlay nav
-
-.fullscreen-menu {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+#fullscreen{ 
     height: 100%;
     width: 100%;
-    position: fixed; /* Stay in place */
-    z-index: 999; /* Sit on top */
+    position: absolute; 
+    z-index: 999; 
     background-color: black;
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    color: white;
+    display: none;
 }
-
-.overlay-header{
-    text-align: center;
-    font-weight: bold;
+.fullscreen > .overlay-header {
+    text-align: right;
+}
+.fullscreen > .overlay-header a{
     font-size: 2em;
     color: white;
 }
 
-.overlay-header i{
-    float: right;
-    font-size: 3em;
-    font-weight: bold;
+.overlay-menu{
+    text-align: center;
     color: white;
+    padding-top: 10px;
+    
 }
-
-.overlay-menu > .col-xs-12 a{
+.overlay-menu a{
     text-decoration:  none;
     color:            white;
 }
 
-.overlay-menu > .col-xs-12 a:link{
+.overlay-menu a:link{
     text-decoration:  none;
     color:            white;
 }
 
-.overlay-menu > .col-xs-12 a:visited{
+.overlay-menu a:visited{
     text-decoration:  none;
     color:            white;
 }
 
-.overlay-menu > .col-xs-12 a:hover{
+.overlay-menu a:hover{
     text-decoration:  none;
     color:            white;
 }
 
-.overlay-menu > .col-xs-12 a:active{
+.overlay-menu a:active{
     text-decoration:  none;
     color:            white;
+}
+
+/* HOME PAGE */
+
+.home-bg{
+    background-image: url('../img/home-jumbo.jpg');
+    background-position: 100% 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    z-index: -1;
+}
+
+/* Our Story */
+
+.pad-top-20{
+   padding-top: 20px;
+}
+
+.pad-bottom-20{
+   padding-bottom: 20px;
+}
+
+#bg-proposal{
+    background-image: url('../img/proposal.JPG');
+    background-position: 100% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    z-index: -1;
+    position:relative;
+}
+
+.top-image{
+    background-color: rgba(245, 245, 245, 0.7);
+    border-radius: 10px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position:absolute;
+    
+
+}
+
+@media only screen and (min-width : 1px) {
+    .top-image{
+        left: 50%;
+        top: 50%;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .top-image{
+        left: 50%;
+        top: 50%;
+    }
+}
+
+
+@media only screen and (min-width : 768px) {
+    .top-image{
+        left: 35%;
+        top: 50%;
+    }
+}
+
+
+@media only screen and (min-width : 992px) {
+    .top-image{
+        left: 26%;
+        top: 50%;
+    }
+}
+
+
+@media only screen and (min-width : 1200px){
+    .top-image{
+        left: 17%;
+        top: 50%;
+    }
 }

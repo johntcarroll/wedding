@@ -10,7 +10,8 @@
         <meta property="og:image" content="">
         <meta name="description" content='Our wedding website!'>
         <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/bootstrap.min.css'>
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
         <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/style.css'>
         <script type='text/javascript' src='<?php echo $root; ?>js/jquery.min.js'></script>
         <script type='text/javascript' src='<?php echo $root; ?>js/bootstrap.min.js'></script>
@@ -18,57 +19,60 @@
     </head>
     <body>
         <div class='container-fluid'>
+            <div id="fullscreen" class='row fullscreen'>
+                <div class='col-xs-12 overlay-header'>
+                    <a href='#' id='nav-close-overlay'><span class='glyphicon glyphicon-remove'></span></a>
+                </div>
+                <div class="col-xs-12 overlay-menu">
+                    <h1>Lena and John</h1>
+                </div>
+
+                <div class='col-xs-12 overlay-menu'>
+                    <a class='overlay-link before after' href='<?php echo $root; ?>story/'>Our Story</a>
+                </div>
+                <div class='col-xs-12 overlay-menu'>
+                    <a class='overlay-link before after' href='<?php echo $root; ?>party/'>Wedding Party</a>
+                </div>
+                <div class='col-xs-12 overlay-menu'>
+                    <a class='overlay-link before after' href='<?php echo $root; ?>schedule/'>Schedule</a>
+                </div>
+                <div class='col-xs-12 overlay-menu'>
+                    <a class='overlay-link before after' href='<?php echo $root; ?>accommodations/'>Accommodations</a>
+                </div>
+                <div class='col-xs-12 overlay-menu'>
+                    <a class='overlay-link before after' href='<?php echo $root; ?>registry/'>Registry</a>
+                </div>
+            </div>
             <div class='row top-nav'>
-                <div class='col-md-12 hidden-sm-down'>
+                <div class='col-md-12  hidden-md hidden-sm hidden-xs'>
                     <div class='row big-nav'>
-                        <div class='col-md-2 nav-brand'>
-                            John and Lena
+                        <div class='col-md-4 big-nav-link vcenter'>
+                            <h1>John and Lena</h1>
                         </div>
-                        <div class='col-md-2 big-nav-link'>
-                            <a href='<?php echo $root; ?>story/'>Our Story</a>
+                        <div class='col-md-1 big-nav-link vcenter'>
+                            <a class='header-link before after' href='<?php echo $root; ?>story/'>Our Story</a>
                         </div>
-                        <div class='col-md-2 big-nav-link'>
-                            <a href='<?php echo $root; ?>party/'>Wedding Party</a>
+                        <div class='col-md-1 big-nav-link vcenter'>
+                            <a class='header-link before after' href='<?php echo $root; ?>party/'>Wedding Party</a>
                         </div>
-                        <div class='col-md-2 big-nav-link'>
-                            <a href='<?php echo $root; ?>schedule/'>Schedule</a>
+                        <div class='col-md-1 big-nav-link vcenter'>
+                            <a class='header-link before after' href='<?php echo $root; ?>schedule/'>Schedule</a>
                         </div>
-                        <div class='col-md-2 big-nav-link'>
-                            <a href='<?php echo $root; ?>accomodations/'>Accomodations</a>
+                        <div class='col-md-1 big-nav-link vcenter'>
+                            <a class='header-link before after' href='<?php echo $root; ?>accommodations/'>Accommodations</a>
                         </div>
-                        <div class='col-md-2 big-nav-link'>
-                            <a href='<?php echo $root; ?>registry/'>Registry</a>
+                        <div class='col-md-1 big-nav-link vcenter'>
+                            <a class='header-link before after' href='<?php echo $root; ?>registry/'>Registry</a>
                         </div>
                     </div>
                 </div>
-                <div class='col-sm-12 hidden-md-up small-nav-link'>
-                    John and Lena <a href='#' id='nav-overlay'><i class='fa fa-bars'></i></a>
-                </div>
-            </div>
-            <div class='fullscreen-menu hidden-xl-down'>
-                <div class='row'>
-                    <div class='col-xs-12 overlay-header'>
-                        John and Lena <a href='#' id='nav-close-overlay'><i class='fa fa-times'></i></a>
-                    </div>
-                </div>
-                <div class='row overlay-menu'>
-                    <div class='col-xs-12'>
-                        <h2>Menu:</h2>
-                    </div>
-                    <div class='col-xs-12'>
-                        <a href='<?php echo $root; ?>story/'>Our Story</a>
-                    </div>
-                    <div class='col-xs-12'>
-                        <a href='<?php echo $root; ?>party/'>Wedding Party</a>
-                    </div>
-                    <div class='col-xs-12'>
-                        <a href='<?php echo $root; ?>schedule/'>Schedule</a>
-                    </div>
-                    <div class='col-xs-12'>
-                        <a href='<?php echo $root; ?>accomodations/'>Accomodations</a>
-                    </div>
-                    <div class='col-xs-12'>
-                        <a href='<?php echo $root; ?>registry/'>Registry</a>
+                <div class='row hidden-lg top-nav big-nav'>
+                    <div class='col-xs-4 big-nav-link vcenter'>
+                        <h1>John and Lena</h1>
+                    </div><!--
+                 --><div class="col-xs-8 small-nav-link vcenter">
+                        <a href='#' id='nav-overlay'><span class='glyphicon glyphicon-menu-hamburger'></span></a>
                     </div>
                 </div>
             </div>
+            

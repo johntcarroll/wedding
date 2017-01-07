@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $("#nav-overlay").click(function(){
-        $(".fullscreen-menu").removeClass('hidden-xl-down');
+        $(".fullscreen").fadeIn('slow');
     });
     $("#nav-close-overlay").click(function(){
-        $(".fullscreen-menu").addClass('hidden-xl-down');
+        $(".fullscreen").fadeOut('slow');
     });
 });
