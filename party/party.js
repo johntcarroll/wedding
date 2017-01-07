@@ -1,0 +1,19 @@
+$(document).ready(function(){
+    $("#show-bride").click(function(){
+        if(!$(this).hasClass('on')){
+            $("#brides-party").fadeIn('slow');
+            $("#grooms-party").fadeOut('fast');
+            $(this).addClass('on');
+            $("#show-groom").removeClass('on');
+        }
+    });
+    $("#show-groom").click(function(){
+        if(!$(this).hasClass('on')){
+            $("#grooms-party").fadeIn('slow');
+            $("#brides-party").fadeOut('fast');
+            $(this).addClass('on');
+            $("#show-bride").removeClass('on');
+        }
+    });
+
+});

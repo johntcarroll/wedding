@@ -19,6 +19,14 @@ h1, h2, h3, h4{
     margin: 0 auto;
 }
 
+.pad-top-20{
+   padding-top: 20px;
+}
+
+.pad-bottom-20{
+   padding-bottom: 20px;
+}
+
 /* NAV BAR */
 
 .top-nav{
@@ -220,14 +228,6 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 
 /* Our Story */
 
-.pad-top-20{
-   padding-top: 20px;
-}
-
-.pad-bottom-20{
-   padding-bottom: 20px;
-}
-
 #bg-proposal{
     background-image: url('../img/proposal.JPG');
     background-position: 100% 60%;
@@ -246,8 +246,6 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     position:absolute;
-    
-
 }
 
 @media only screen and (min-width : 1px) {
@@ -286,4 +284,55 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
         left: 17%;
         top: 50%;
     }
+}
+
+/* Wedding Party */
+
+.party-button{
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+  font-size: 3em;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.party-button:hover {
+  background: #7f878c;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.party-button.on{
+    background: #7f878c;
+}
+
+.party-attribute{
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 1em;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.party-row{
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.attribute-cell{
+    text-align: right;
+}
+
+#grooms-party{
+    display: none;
 }
