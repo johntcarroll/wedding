@@ -42,7 +42,7 @@ include "groomsmen.php";
                      --><div class='col-xs-4 vcenter hidden-xs'>
                             <div class='row'>
                                 <div class='col-xs-12 text-center'>
-                                    <h2>Why We Love Them:</h2><br/>
+                                    <h2>Why We Love Her:</h2><br/>
                                 </div>";
                                 foreach($bridesmaid['attributes'] as $attribute){
                                     echo "<div class='col-xs-12 pad-top-5 text-center'>
@@ -59,7 +59,7 @@ include "groomsmen.php";
                         <div class='col-xs-4 vcenter hidden-xs'>
                             <div class='row'>
                                 <div class='col-xs-12 text-center'>
-                                    <h2>Why We Love Them:</h2><br/>
+                                    <h2>Why We Love Her:</h2><br/>
                                 </div>";
                                 foreach($bridesmaid['attributes'] as $attribute){
                                     echo "<div class='col-xs-12 pad-top-5 text-center'>
@@ -104,7 +104,7 @@ include "groomsmen.php";
                      --><div class='col-xs-4 vcenter hidden-xs'>
                             <div class='row'>
                                 <div class='col-xs-12 text-center'>
-                                    <h2>Why We Love Them:</h2><br/>
+                                    <h2>Why We Love Him:</h2><br/>
                                 </div>";
                                 foreach($groomsman['attributes'] as $attribute){
                                     echo "<div class='col-xs-12 pad-top-5 text-center'>
@@ -121,7 +121,7 @@ include "groomsmen.php";
                         <div class='col-xs-4 vcenter hidden-xs'>
                             <div class='row'>
                                 <div class='col-xs-12 text-center'>
-                                    <h2>Why We Love Them:</h2><br/>
+                                    <h2>Why We Love Him:</h2><br/>
                                 </div>";
                                 foreach($groomsman['attributes'] as $attribute){
                                     echo "<div class='col-xs-12 pad-top-5 text-center'>

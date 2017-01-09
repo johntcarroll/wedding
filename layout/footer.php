@@ -1,6 +1,7 @@
 <div class='row footer-row'>
     <div class='col-xs-12 col-sm-4 vcenter text-center'>
         <ul>
+            <li><a class='header-link before after' href='<?php echo $root; ?>home/'>Home</a></li>
             <li><a class='header-link before after' href='<?php echo $root; ?>story/'>Our Story</a></li>
             <li><a class='header-link before after' href='<?php echo $root; ?>party/'>Wedding Party</a></li>
             <li><a class='header-link before after' href='<?php echo $root; ?>schedule/'>Schedule</a></li>
