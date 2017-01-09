@@ -18,7 +18,7 @@
         <script type='text/javascript' src='<?php echo $root; ?>layout/header.js'></script>
     </head>
     <body>
-        <div class='container-fluid'>
+        <div class='container-fluid' style="overflow-x:hidden">
             <div id="fullscreen" class='row fullscreen'>
                 <div class='col-xs-12 overlay-header'>
                     <a href='#' id='nav-close-overlay'><span class='glyphicon glyphicon-remove'></span></a>
