@@ -31,6 +31,10 @@ h1, h2, h3, h4{
    padding-top: 10px;
 }
 
+.pad-top-5{
+    padding-top: 5px;
+}
+
 .pad-bottom-10{
    padding-bottom: 10px;
 }
@@ -346,6 +350,7 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
     background: #000000;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    display: block;
 }
 
 .party-row{
