@@ -324,20 +324,20 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
   font-family: 'Dancing Script', cursive;
   color: #ffffff;
   font-size: 3em;
-  background: #000000;
+  background: #7f878c;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .party-button:hover {
-  background: #7f878c;
+  background: #000000;
   text-decoration: none;
   cursor: pointer;
   cursor: hand;
 }
 
 .party-button.on{
-    background: #7f878c;
+    background: #000000;
 }
 
 .party-attribute{
