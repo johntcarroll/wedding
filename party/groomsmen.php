@@ -9,7 +9,7 @@ $groomsmen = array(
             'Charismatic',
             'Mischievous'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_NickCarroll_1440x1440_001.png'
     ),
     'Matt Carroll' => array(
         'title' => 'Groomsman',
@@ -19,7 +19,7 @@ $groomsmen = array(
             'Practical',
             'Protective'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_MattCarroll_1440x1440_001.png'
     ),
     'Justin Rohleder' => array(
         'title' => 'Groomsman',
@@ -29,7 +29,7 @@ $groomsmen = array(
             'Leader',
             'Brave'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_JustinRohleder_1440x1440_001.png'
     ),
    'Nick Rohleder' => array(
         'title' => 'Groomsman',
@@ -39,7 +39,7 @@ $groomsmen = array(
             'Clever',
             'Well-rounded'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_NickRohleder_1440x1440_001.png'
     ),
     'Mark Falcone' => array(
         'title' => 'Groomsman',
@@ -49,7 +49,7 @@ $groomsmen = array(
             'Emotional',
             'Open-minded'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_MarkFalcone_1440x1440_001.png'
     ),
     'Andrew Beltz' => array(
         'title' => 'Groomsman',
@@ -59,7 +59,7 @@ $groomsmen = array(
             'Easy-going',
             'Audacious'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_AndrewBeltz_1440x1440_001.png'
     ),
     'Kade Vasi' => array(
         'title' => 'Groomsman',
@@ -69,7 +69,7 @@ $groomsmen = array(
             'Strong',
             'Adventurous'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_KadeVasi_1440x1440_001.png'
     ),
     'DJ Correale' => array(
         'title' => 'Groomsman',
@@ -79,7 +79,7 @@ $groomsmen = array(
             'Atriculate',
             'Resolute'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_DJCorreale_1440x1440_001.png'
     ),
     'Graham Bach' => array(
         'title' => 'Groomsman',
@@ -89,7 +89,7 @@ $groomsmen = array(
             'Trend-setter',
             'Rowdy'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_GrahamBach_1440x1440_001.png'
     ),
     'Andrew Goldberg' => array(
         'title' => 'Groomsman',
@@ -99,6 +99,6 @@ $groomsmen = array(
             'Cunning',
             'Oppurtunistic'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_AndrewGoldberg_1440x1440_001.png'
     ),
 );
