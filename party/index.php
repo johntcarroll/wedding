@@ -30,16 +30,16 @@ include "groomsmen.php";
     $count = 1;
     foreach($bridesmaids as $bridesmaid){
         if($count % 2 != 0){
-            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 pad-top-20 " . ($count == count($bridesmaids) ? '' : 'party-row') . "'>
+            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($bridesmaids) ? '' : 'party-row') . "'>
                     <div class='row'>
                         <div class='col-xs-12 col-sm-3 vcenter'>
-                            <img class='img img-responsive' src='" . $bridesmaid['img'] . "' />
+                            <img class='img img-responsive accomm-img img-center' src='" . $bridesmaid['img'] . "' />
                         </div><!--
-                     --><div class='col-xs-12 col-sm-4 vcenter text-center'>
+                     --><div class='col-xs-12 col-sm-9 col-md-5 vcenter text-center'>
                             <h1>" . $bridesmaid['title'] . "</h1><br/><br/>
                             <h2>" . $bridesmaid['relation'] . "</h2><br/><br/>
                         </div><!--
-                     --><div class='col-xs-4 vcenter hidden-xs'>
+                     --><div class='col-xs-4 vcenter hidden-xs hidden-sm'>
                             <div class='row'>
                                 <div class='col-xs-12 text-center'>
                                     <h2>Why We Love Her:</h2><br/>
@@ -54,9 +54,9 @@ include "groomsmen.php";
                     </div>
                 </div> ";
         }else{
-            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 pad-top-20 " . ($count == count($bridesmaids) ? '' : 'party-row') . "'>
+            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($bridesmaids) ? '' : 'party-row') . "'>
                     <div class='row'>
-                        <div class='col-xs-4 vcenter hidden-xs'>
+                        <div class='col-xs-4 vcenter hidden-xs hidden-sm'>
                             <div class='row'>
                                 <div class='col-xs-12 text-center'>
                                     <h2>Why We Love Her:</h2><br/>
@@ -68,14 +68,14 @@ include "groomsmen.php";
                                 }
                             echo "</div>
                         </div><!--
-                     --><div class=' hidden-xs col-sm-4 vcenter text-center'>
+                     --><div class='hidden-xs col-sm-8 col-md-5 vcenter text-center'>
                             <h1>" . $bridesmaid['title'] . "</h1><br/><br/>
                             <h2>" . $bridesmaid['relation'] . "</h2><br/><br/>
                         </div><!--
                      --><div class='col-xs-12 col-sm-3 vcenter'>
-                            <img class='img img-responsive' src='" . $bridesmaid['img'] . "' />
+                            <img class='img img-responsive accomm-img img-center' src='" . $bridesmaid['img'] . "' />
                         </div><!--
-                     --><div class='visible-xs col-sm-4 vcenter text-center'>
+                     --><div class='visible-xs col-xs-12 vcenter text-center'>
                             <h1>" . $bridesmaid['title'] . "</h1><br/><br/>
                             <h2>" . $bridesmaid['relation'] . "</h2><br/><br/>
                         </div>
@@ -92,16 +92,16 @@ include "groomsmen.php";
     $count = 1;
     foreach($groomsmen as $groomsman){
         if($count % 2 != 0){
-            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 pad-top-20 " . ($count == count($groomsmen) ? '' : 'party-row') . "'>
+            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($groomsmen) ? '' : 'party-row') . "'>
                     <div class='row'>
                         <div class='col-xs-12 col-sm-3 vcenter'>
-                            <img class='img img-responsive' src='" . $groomsman['img'] . "' />
+                            <img class='img img-responsive accomm-img img-center' src='" . $groomsman['img'] . "' />
                         </div><!--
-                     --><div class='col-xs-12 col-sm-4 vcenter text-center'>
+                     --><div class='col-xs-12 col-sm-9 col-md-5 vcenter text-center'>
                             <h1>" . $groomsman['title'] . "</h1><br/><br/>
                             <h2>" . $groomsman['relation'] . "</h2><br/><br/>
                         </div><!--
-                     --><div class='col-xs-4 vcenter hidden-xs'>
+                     --><div class='col-xs-4 vcenter hidden-xs hidden-sm'>
                             <div class='row'>
                                 <div class='col-xs-12 text-center'>
                                     <h2>Why We Love Him:</h2><br/>
@@ -116,9 +116,9 @@ include "groomsmen.php";
                     </div>
                 </div> ";
         }else{
-            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 pad-top-20 " . ($count == count($groomsmen) ? '' : 'party-row') . "'>
+            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($groomsmen) ? '' : 'party-row') . "'>
                     <div class='row'>
-                        <div class='col-xs-4 vcenter hidden-xs'>
+                        <div class='col-xs-4 vcenter hidden-xs hidden-sm'>
                             <div class='row'>
                                 <div class='col-xs-12 text-center'>
                                     <h2>Why We Love Him:</h2><br/>
@@ -130,14 +130,14 @@ include "groomsmen.php";
                                 }
                             echo "</div>
                         </div><!--
-                     --><div class=' hidden-xs col-sm-4 vcenter text-center'>
+                     --><div class='hidden-xs col-sm-8 col-md-5 vcenter text-center'>
                             <h1>" . $groomsman['title'] . "</h1><br/><br/>
                             <h2>" . $groomsman['relation'] . "</h2><br/><br/>
                         </div><!--
                      --><div class='col-xs-12 col-sm-3 vcenter'>
-                            <img class='img img-responsive' src='" . $groomsman['img'] . "' />
+                            <img class='img img-responsive accomm-img img-center' src='" . $groomsman['img'] . "' />
                         </div><!--
-                     --><div class='visible-xs col-sm-4 vcenter text-center'>
+                     --><div class='visible-xs col-xs-12 vcenter text-center'>
                             <h1>" . $groomsman['title'] . "</h1><br/><br/>
                             <h2>" . $groomsman['relation'] . "</h2><br/><br/>
                         </div>

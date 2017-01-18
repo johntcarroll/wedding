@@ -480,6 +480,6 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 }
 
 .accomm-img{
-    max-width: 300px;
-    height: auto;
+    max-width: auto;
+    max-height: 300px;
 }
