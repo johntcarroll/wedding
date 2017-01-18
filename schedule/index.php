@@ -109,10 +109,10 @@ include "../layout/header.php";
         </div>
     </div>
     <div class='row pad-bottom-10 pad-top-10 event-row'>
-        <div class='col-xs-12 col-sm-4 vcenter'>
-            <img class="img img-responsive img-center" src="../img/party-name-top.png" />
+        <div class='col-xs-12 col-sm-6 vcenter'>
+            <img class="img img-responsive img-center accomm-img" src="../img/party-name-top.png" />
         </div><!--
-        --><div class='col-xs-12 col-sm-8 text-center vcenter'>
+        --><div class='col-xs-12 col-sm-6 text-center vcenter'>
             <h1>Penn Oaks CC</h1>
             <p>150 Penn Oaks Drive</p>
             <p>West Chester PA 19382</p>
@@ -120,10 +120,10 @@ include "../layout/header.php";
         </div>
     </div>
     <div class='row pad-bottom-10 pad-top-10 event-row'>
-        <div class='col-xs-12 col-sm-4 vcenter'>
-            <img class="img img-responsive img-center" src="../img/party-name-top.png" />
+        <div class='col-xs-12 col-sm-6 vcenter'>
+            <img class="img img-responsive img-center accomm-img" src="../img/party-name-top.png" />
         </div><!--
-        --><div class='col-xs-12 col-sm-8 text-center vcenter'>
+        --><div class='col-xs-12 col-sm-6 text-center vcenter'>
             <h1>Penn Oaks CC</h1>
             <p>150 Penn Oaks Drive</p>
             <p>West Chester PA 19382</p>
@@ -131,10 +131,10 @@ include "../layout/header.php";
         </div>
     </div>
     <div class='row pad-bottom-10 pad-top-10 event-row'>
-        <div class='col-xs-12 col-sm-4 vcenter'>
-            <img class="img img-responsive img-center" src="../img/party-name-top.png" />
+        <div class='col-xs-12 col-sm-6 vcenter'>
+            <img class="img img-responsive img-center accomm-img" src="../img/party-name-top.png" />
         </div><!--
-        --><div class='col-xs-12 col-sm-8 text-center vcenter'>
+        --><div class='col-xs-12 col-sm-6 text-center vcenter'>
             <h1>Penn Oaks CC</h1>
             <p>150 Penn Oaks Drive</p>
             <p>West Chester PA 19382</p>
@@ -142,10 +142,10 @@ include "../layout/header.php";
         </div>
     </div>
     <div class='row pad-bottom-10 pad-top-10 '>
-        <div class='col-xs-12 col-sm-4 vcenter'>
-            <img class="img img-responsive img-center" src="../img/party-name-top.png" />
+        <div class='col-xs-12 col-sm-6 vcenter'>
+            <img class="img img-responsive img-center accomm-img" src="../img/party-name-top.png" />
         </div><!--
-        --><div class='col-xs-12 col-sm-8 text-center vcenter'>
+        --><div class='col-xs-12 col-sm-6 text-center vcenter'>
             <h1>Wyndham Garden Hotel</h1>
             <p>1110 Baltimore Pike</p>
             <p>Glen Mills PA 19342</p>
