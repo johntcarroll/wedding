@@ -424,6 +424,8 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
     background-color: whitesmoke;
     border-top: 1px solid grey;
     margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .header-link{
@@ -442,3 +444,42 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
     width: auto;
 }
 
+/* Accommodations */
+
+@media only screen and (min-width : 1px) {
+    .accomm-info{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .accomm-info{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width : 768px) {
+    .accomm-info{
+        text-align: left;
+    }
+}
+
+
+@media only screen and (min-width : 992px) {
+    .accomm-info{
+        text-align: left;
+    }
+}
+
+
+@media only screen and (min-width : 1200px){
+    .accomm-info{
+        text-align: left;
+    }
+}
+
+.accomm-img{
+    max-width: 300px;
+    height: auto;
+}
