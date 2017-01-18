@@ -12,7 +12,7 @@ include "../layout/header.php";
 
     <div class='row hidden-md hidden-lg'>
         <div class='col-sm-4 col-xs-12 vcenter'>
-            <img class='img img-responsive' src='../img/circular-image.png' />
+            <img class='img img-responsive accomm-img' src='../img/circular-image.png' />
         </div><!--
      --><div class='col-sm-8 col-xs-12 vcenter'>
             Hi everyone! Thanks for visiting our wedding website! A few fun facts about me:  I graduated from Drexel University in 2013 with a degree in IT and a database concentration. I played soccer for the NCAA Division I at Drexel team all 5 years I was in college.  I had a crush on Lena in our 8th grade English class! 
@@ -23,7 +23,7 @@ include "../layout/header.php";
             Welcome! Little ol’ me in a nutshell: I was born in Tallahassee, FL and lived in Denver, CO while growing up before moving to PA. I went to school for biology at Kansas State University and now work in the clinical research industry for a CRO.  I enjoy Eagle’s Sundays with John and dreaming up ideas for our 1860’s fixer-upper home in the West Chester Borough.  You can find me crafting, cooking, playing soccer or beating John at Hearthstone.
         </div><!--
      --><div class='col-sm-4 col-xs-12 vcenter'>
-            <img class='img img-responsive' src='../img/circular-image.png' />
+            <img class='img img-responsive accomm-img' src='../img/circular-image.png' />
         </div><!--
       --><div class='col-sm-8 visible-xs vcenter'>
             Welcome! Little ol’ me in a nutshell: I was born in Tallahassee, FL and lived in Denver, CO while growing up before moving to PA. I went to school for biology at Kansas State University and now work in the clinical research industry for a CRO.  I enjoy Eagle’s Sundays with John and dreaming up ideas for our 1860’s fixer-upper home in the West Chester Borough.  You can find me crafting, cooking, playing soccer or beating John at Hearthstone.
@@ -32,7 +32,7 @@ include "../layout/header.php";
 
     <div class='row hidden-sm hidden-xs pad-top-20 pad-bottom-20'>
         <div class='col-md-2 col-lg-offset-1 vcenter'>
-            <img class='img img-responsive' src='../img/circular-image.png' />
+            <img class='img img-responsive accomm-img' src='../img/circular-image.png' />
         </div><!--
      --><div class='col-md-4 col-lg-3 vcenter'>
          Hi everyone! Thanks for visiting our wedding website! A few fun facts about me:  I graduated from Drexel University in 2013 with a degree in IT and a database concentration. I played soccer for the NCAA Division I at Drexel team all 5 years I was in college.  I had a crush on Lena in our 8th grade English class! 
@@ -41,7 +41,7 @@ include "../layout/header.php";
             Welcome! Little ol’ me in a nutshell: I was born in Tallahassee, FL and lived in Denver, CO while growing up before moving to PA. I went to school for biology at Kansas State University and now work in the clinical research industry for a CRO.  I enjoy Eagle’s Sundays with John and dreaming up ideas for our 1860’s fixer-upper home in the West Chester Borough.  You can find me crafting, cooking, playing soccer or beating John at Hearthstone.
         </div><!--
      --><div class='col-md-2 vcenter'>
-            <img class='img img-responsive' src='../img/circular-image.png' />
+            <img class='img img-responsive accomm-img' src='../img/circular-image.png' />
         </div>
     </div>
     
