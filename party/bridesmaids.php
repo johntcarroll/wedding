@@ -61,4 +61,24 @@ $bridesmaids = array(
         ),
         'img' => '../img/party-name-top.png'
     ),
+    'Lexa Ricigliano' => array(
+        'title' => 'Bridesmaid',
+        'relation' => 'Friend',
+        'attributes' => array(
+            'Affectionate',
+            'Creative',
+            'Sweet'
+        ),
+        'img' => '../img/party-name-top.png'
+    ),
+    'Aubrey Bohn' => array(
+        'title' => 'Bridesmaid',
+        'relation' => 'Friend',
+        'attributes' => array(
+            'Perceptive',
+            'Unique',
+            'Encouraging'
+        ),
+        'img' => '../img/party-name-top.png'
+    ),
 );

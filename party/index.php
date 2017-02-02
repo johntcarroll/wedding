@@ -14,12 +14,12 @@ include "groomsmen.php";
 
 <div class='row'>
     <div class='col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 col-lg-3 col-lg-offset-3 text-center pad-top-20'>
-        <div class='party-button' id='show-groom'>
+        <div class='party-button on' id='show-groom'>
             Groomsmen
         </div>
     </div>
     <div class='col-xs-12 col-sm-5 col-md-4 col-lg-3 text-center pad-top-20 pad-bottom-20'>
-        <div class='party-button on' id='show-bride'>
+        <div class='party-button' id='show-bride'>
             Bridesmaids
         </div>
     </div>

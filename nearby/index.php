@@ -13,11 +13,11 @@ include "../layout/header.php";
         <img class='img img-center img-responsive accomm-img' src='../img/party-name-top.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 accomm-info vcenter'>
-        <h1>10 Minute Drive</h1>
-        <p>(999) 999-9999</p>
-        <p><a href='http://bestwestern.com' target="_blank">Wesbite</a></p>
-        <p>1425 Rollinview Drive, West Chester PA 19382</p>
-        <p>This hotel is located right in the heart of downtown West Chester.</p>
+        <h1>15 Minute Drive</h1>
+        <p>(610) 756-7600</p>
+        <p><a href='https://www.longwoodgardens.org/' target="_blank">Wesbite</a></p>
+        <p>1001 Longwood Road, Kennett Square,  PA 19348</p>
+        <p>One of the world’s greatest public gardens with many interesting exhibits, fountains, and architecture.  A fun and beautiful place to explore with its indoor and outdoor gardens.  Tickets may be purchased on their website.</p>
     </div>
 </div>
 <div class='row border-bottom pad-top-10 pad-bottom-10'>
@@ -25,11 +25,11 @@ include "../layout/header.php";
         <img class='img img-center img-responsive accomm-img' src='../img/party-name-top.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 accomm-info vcenter'>
-        <h1>10 Minute Drive</h1>
-        <p>(999) 999-9999</p>
-        <p><a href='http://bestwestern.com' target="_blank">Wesbite</a></p>
-        <p>1425 Rollinview Drive, West Chester PA 19382</p>
-        <p>This hotel is located right in the heart of downtown West Chester.</p>
+        <h1>15 Minute Drive</h1>
+        <p>(610) 388-6221</p>
+        <p><a href='https://www.chaddsford.com/' target="_blank">Wesbite</a></p>
+        <p>632 Baltimore Pike, Chadds Ford, PA 19317</p>
+        <p>A local winery offering wine tastings and tours.</p>
     </div>
 </div>
 <div class='row pad-top-10 pad-bottom-10'>
@@ -37,11 +37,10 @@ include "../layout/header.php";
         <img class='img img-center img-responsive accomm-img' src='../img/party-name-top.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 accomm-info vcenter'>
-        <h1>10 Minute Drive</h1>
-        <p>(999) 999-9999</p>
+        <h1>15 Minute Drive</h1>
         <p><a href='http://bestwestern.com' target="_blank">Wesbite</a></p>
-        <p>1425 Rollinview Drive, West Chester PA 19382</p>
-        <p>This hotel is located right in the heart of downtown West Chester.</p>
+        <p>E Gay St, West Chester, PA 19380</p>
+        <p>Quaint and historic downtown area that is fun to explore for food, shopping, and just to walk around taking in its charm.</p>
     </div>
 </div>
 

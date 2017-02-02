@@ -13,12 +13,12 @@ include "../layout/header.php";
         <img class='img img-center img-responsive accomm-img' src='../img/party-name-top.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 vcenter accomm-info'>
-        <h1>3.7 Miles from Reception</h1>
+        <h1>2.7 Miles from Reception</h1>
         <p>$134.95 per Night when booking in Carroll/Rohleder Block</p>
         <p>(610) 358-1700</p>
         <p><a href='https://www.wyndhamhotels.com/wyndham-garden/glen-mills-pennsylvania/wyndham-garden-glen-mills-wilmington/overview' target="_blank">Website</a></p>
         <p>1110 Baltimore Pike, Glen Mills, PA 19342</p>
-        <p class="hidden-xs hidden-sm">Directions between Reception and Hotel - <a href="#" id="show-hotel1">Google Maps</a></p>
+        <p class="hidden-xs hidden-sm">Directions between Reception and Hotel - <a href="#" id="show-hotel1" onclick="return false;">Google Maps</a></p>
         <p class="hidden-md hidden-lg">Directions between Reception and Hotel - <a target="_blank" href="https://goo.gl/maps/mSn9g85ZAYz">Google Maps</a></p>
     </div>
 </div>
@@ -28,12 +28,13 @@ include "../layout/header.php";
         <img class='img img-center img-responsive accomm-img' src='../img/party-name-top.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 vcenter accomm-info'>
-        <h1>Distance from Reception</h1>
-        <p>$300 per Night when booking in Carroll/Rohleder Block</p>
+        <h1>2.9 Miles from Reception</h1>
+        <p>$145 per Night when booking in Carroll/Rohleder Block</p>
         <p>(999) 999-9999</p>
-        <p><a href='http://bestwestern.com' target="_blank">Wesbite</a></p>
-        <p>1425 Rollinview Drive, West Chester PA 19382</p>
-        <p>This hotel is located right in the heart of downtown West Chester.</p>
+        <p><a href='http://hamptoninn3.hilton.com/en/hotels/pennsylvania/hampton-inn-and-suites-chadds-ford-CFORDHX/index.html' target="_blank">Wesbite</a></p>
+        <p>40 State Farm Dr, Glen Mills, PA 19342</p>
+        <p class="hidden-xs hidden-sm">Directions between Reception and Hotel - <a href="#" id="show-hotel2" onclick="return false;">Google Maps</a></p>
+        <p class="hidden-md hidden-lg">Directions between Reception and Hotel - <a target="_blank" href=https://goo.gl/maps/SpRhJMfotJz">Google Maps</a></p>
     </div>
 </div>
 
@@ -43,6 +44,23 @@ include "../layout/header.php";
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title">Wyndham Garden Hotel to Penn Oaks County Club</h4>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" tabindex="-1" role="dialog" id="hotel2">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Hampton Inn & Suites Chadds Ford to Penn Oaks County Club</h4>
             </div>
             <div class="modal-body">
                 

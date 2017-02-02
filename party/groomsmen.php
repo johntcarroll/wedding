@@ -91,14 +91,4 @@ $groomsmen = array(
         ),
         'img' => '../img/JL_GrahamBach_1440x1440_001.png'
     ),
-    'Andrew Goldberg' => array(
-        'title' => 'Groomsman',
-        'relation' => 'Friend',
-        'attributes' => array(
-            'Resourceful',
-            'Cunning',
-            'Oppurtunistic'
-        ),
-        'img' => '../img/JL_AndrewGoldberg_1440x1440_001.png'
-    ),
 );

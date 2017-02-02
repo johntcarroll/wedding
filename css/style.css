@@ -363,7 +363,7 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
     text-align: right;
 }
 
-#grooms-party{
+#brides-party{
     display: none;
 }
 
@@ -423,7 +423,6 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 .footer-row{
     background-color: whitesmoke;
     border-top: 1px solid grey;
-    margin-top: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
