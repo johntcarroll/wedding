@@ -24,7 +24,7 @@
                     <a href='#' id='nav-close-overlay'><span class='glyphicon glyphicon-remove'></span></a>
                 </div>
                 <div class="col-xs-12 overlay-menu">
-                    <h1>Lena and John</h1>
+                    <h1 class="nav-header">Lena and John</h1>
                 </div>
 
                 <div class='col-xs-12 overlay-menu'>
@@ -71,7 +71,7 @@
                             <a class='header-link before after' href='<?php echo $root; ?>registry/'>Registry</a>
                         </div><!--
                      --><div class='col-md-1 col-md-offet-1 vcenter'>
-                         <h3>#RohlinWithTheCarrolls</h3>
+                         <h3 class="brand-link">#RohlinWithTheCarrolls</h3>
                         </div>
                     </div>
                 </div>

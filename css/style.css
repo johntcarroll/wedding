@@ -2,11 +2,13 @@
 
 body{
     font-family: Raleway;
+    color: #311023;
 }
 
 h1, h2, h3, h4{
     font-family: 'Dancing Script', cursive;
     display: inline;
+    color: #7f878c;
 }
 
 .vcenter {
@@ -56,10 +58,16 @@ ul > li{
 
 .brand-link{
     text-decoration: none;
+    color: #311023
 }
 
 .top-nav{
-    background-color:whitesmoke;
+    background-color:#9AD3BB;
+    color: #311023
+}
+
+h1,h2,h3.h4.nav-header{
+    color:#311023;
 }
 
 /* Header Nav Links */
@@ -71,7 +79,7 @@ a.header-link,a.header-link:visited,a.header-link:hover,a.header-link:active{
 	text-decoration:none;
 }
 a.header-link:hover{
-	color: black;
+	color: #311023;
 }
 a.header-link.before:before,a.header-link.after:after{
   content: "";
@@ -94,7 +102,7 @@ a.header-link.before:before,a.header-link.after:after{
   height:5px;
   height:0.12rem;
   width:0;
-  background:black;
+  background:#311023;
 }
 a.header-link:before,a.header-link:after{
   left:50%;
@@ -115,7 +123,7 @@ a.overlay-link,a.overlay-link:visited,a.overlay-link:hover,a.overlay-link:active
 	text-decoration:none;
 }
 a.overlay-link:hover{
-	color: white;
+	color: #311023;
 }
 a.overlay-link.before:before,a.overlay-link.after:after{
   content: "";
@@ -138,7 +146,7 @@ a.overlay-link.before:before,a.overlay-link.after:after{
   height:5px;
   height:0.12rem;
   width:0;
-  background:white;
+  background:#311023;
 }
 a.overlay-link:before,a.overlay-link:after{
   left:50%;
@@ -165,32 +173,32 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 .top-nav > .small-nav-link a{
     font-size: 2em;
     text-decoration:  none;
-    color: black;
+    color: #311023;
 }
 
 .big-nav > .big-nav-link a{
     text-decoration:  none;
-    color:            black;
+    color:            #311023;
 }
 
 .big-nav > .big-nav-link a:link{
     text-decoration:  none;
-    color:            black;
+    color:            #311023;
 }
 
 .big-nav > .big-nav-link a:visited{
     text-decoration:  none;
-    color:            black;
+    color:            #311023;
 }
 
 .big-nav > .big-nav-link a:hover{
     text-decoration:  none;
-    color:            black;
+    color:            #311023;
 }
 
 .big-nav > .big-nav-link a:active{
     text-decoration:  none;
-    color:            black;
+    color:            #311023;
 }
 
 /* overlay nav */
@@ -200,8 +208,8 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
     width: 100%;
     position: absolute; 
     z-index: 999; 
-    background-color: black;
-    color: white;
+    background-color: #9AD3BB;
+    color: #311023;
     display: none;
 }
 .fullscreen > .overlay-header {
@@ -209,38 +217,38 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 }
 .fullscreen > .overlay-header a{
     font-size: 2em;
-    color: white;
+    color: #311023;
 }
 
 .overlay-menu{
     text-align: center;
-    color: white;
+    color: #311023;
     padding-top: 10px;
     
 }
 .overlay-menu a{
     text-decoration:  none;
-    color:            white;
+    color:            #311023;
 }
 
 .overlay-menu a:link{
     text-decoration:  none;
-    color:            white;
+    color:            #311023;
 }
 
 .overlay-menu a:visited{
     text-decoration:  none;
-    color:            white;
+    color:            #311023;
 }
 
 .overlay-menu a:hover{
     text-decoration:  none;
-    color:            white;
+    color:            #311023;
 }
 
 .overlay-menu a:active{
     text-decoration:  none;
-    color:            white;
+    color:            #311023;
 }
 
 /* HOME PAGE */
@@ -324,20 +332,20 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
   font-family: 'Dancing Script', cursive;
   color: #ffffff;
   font-size: 3em;
-  background: #7f878c;
+  background: #988E9B;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .party-button:hover {
-  background: #000000;
+  background: #311023;
   text-decoration: none;
   cursor: pointer;
   cursor: hand;
 }
 
 .party-button.on{
-    background: #000000;
+    background: #311023;
 }
 
 .party-attribute{
@@ -345,12 +353,15 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
     -moz-border-radius: 12;
     border-radius: 12px;
     font-family: Raleway;
-    color: #ffffff;
+    color: #311023;
     font-size: 1em;
-    background: #000000;
+    background: white;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     display: block;
+    border-color: #9AD3BB;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .party-row{
@@ -370,19 +381,19 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 /* Schedule */
 
 .timeline-row > .line-right{
-    border-right: 4px solid black;
+    border-right: 4px solid #311023;
 }
 
 .timeline-row > .line-top{
-    border-top: 4px solid black;
+    border-top: 4px solid #311023;
 }
 
 .timeline-row > .line-bottom{
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid #311023;
 }
 
 .timeline-row > .line-left{
-    border-left: 4px solid black;
+    border-left: 4px solid #311023;
 }
 
 .event-details{
@@ -421,14 +432,14 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 /* footer */
 
 .footer-row{
-    background-color: whitesmoke;
+    background-color: #AB8FB1;
     border-top: 1px solid grey;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
 .header-link{
-    color: black;
+    color: #311023;
 }
 
 .img-small{
