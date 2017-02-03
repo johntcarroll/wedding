@@ -51,7 +51,7 @@ ul > li{
 }
 
 .border-bottom{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #311023;
 }
 
 /* NAV BAR */
@@ -63,7 +63,13 @@ ul > li{
 
 .top-nav{
     background-color:#9AD3BB;
-    color: #311023
+    color: #311023;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #311023;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #311023;
 }
 
 h1,h2,h3.h4.nav-header{
@@ -365,7 +371,7 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 }
 
 .party-row{
-    border-bottom-color: grey;
+    border-bottom-color: #311023;
     border-bottom-width: 1px;
     border-bottom-style: solid;
 }
@@ -426,14 +432,14 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 }
 
 .event-row{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #311023;
 }
 
 /* footer */
 
 .footer-row{
     background-color: #AB8FB1;
-    border-top: 1px solid grey;
+    border-top: 1px solid #311023;
     padding-bottom: 10px;
     padding-top: 10px;
 }
