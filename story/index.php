@@ -64,7 +64,7 @@ include "../layout/header.php";
                             <h1>The Proposal</h1>
                         </div>
                         <div class='col-xs-8 col-xs-offset-2 text-center pad-top-20 pad-bottom-20'>
-                            December of 2016, John and Lena traveled to Seneca, KS for Boeding Christmas with Lena’s maternal extended family.  On Monday, December 19th we were spending time Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            In December of 2016, John and Lena traveled to Seneca, KS for Christmas with Lena’s maternal extended family.  On Monday, December 19th we were having a lazy day, relaxing at Grandma’s farm when John insisted that we go for a walk around the property. It was a brisk beautiful day and the farm was coated in a fresh layer of snow. As we walked through the front yard John stopped and got on one knee - The rest is history!
                         </div>
                     </div>
                 </div>
