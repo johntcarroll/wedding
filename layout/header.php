@@ -16,6 +16,7 @@
         <script type='text/javascript' src='<?php echo $root; ?>js/jquery.min.js'></script>
         <script type='text/javascript' src='<?php echo $root; ?>js/bootstrap.min.js'></script>
         <script type='text/javascript' src='<?php echo $root; ?>layout/header.js'></script>
+        <script type='text/javascript' src='<?php echo $root; ?>js/doubleTapBugFix.js'></script>
     </head>
     <body>
         <div class='container-fluid' style="overflow: hidden;">
