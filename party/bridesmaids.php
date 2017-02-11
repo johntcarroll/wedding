@@ -37,7 +37,7 @@ $bridesmaids = array(
         'attributes' => array(
             'Strong',
             'Vivacious',
-            'Lovable'
+            'Easy-going'
         ),
         'img' => '../img/JL_AubreyRiedel_1440x1440_001.png'
     ),
