@@ -26,10 +26,10 @@ include "../layout/header.php";
             <img class="img img-responsive timeline-img img-center" src="../img/party-name-top.png" />
         </div>
         <div class="col-md-2 timeline-cell line-top line-left line-bottom event-details left">
-            <h1>Penn Oaks CC</h1>
-            <p>150 Penn Oaks Drive</p>
-            <p>West Chester PA 19382</p>
-            <h1>4:40PM</h1>
+            <h1>Bethlehem United Methodist Church</h1>
+            <p>4 Westtown Road</p>
+            <p>Thornton PA 19373</p>
+            <h1>4:30PM</h1>
         </div>
         <div class="col-md-2 timeline-cell line-bottom">
 
