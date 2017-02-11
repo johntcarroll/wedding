@@ -9,7 +9,7 @@ $bridesmaids = array(
             'Diligent',
             'Genuine'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_LauraRohleder_1440x1440_001.png'
     ),
     'Megan Rohleder' => array(
         'title' => 'Maid of Honor',
@@ -19,7 +19,7 @@ $bridesmaids = array(
             'Non-judgemental',
             'Sincere'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_MeganRohleder_1440x1440_001.png'
     ),
     'Sarah Rohleder' => array(
         'title' => 'Bridesmaid',
@@ -29,7 +29,7 @@ $bridesmaids = array(
             'Intuitive',
             'Sanguine'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_SarahRohleder_1440x1440_001.png'
     ),
     'Aubrey Riedel' => array(
         'title' => 'Bridesmaid',
@@ -39,7 +39,7 @@ $bridesmaids = array(
             'Vivacious',
             'Lovable'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_AubreyRiedel_1440x1440_001.png'
     ),
     'Jennifer Swenson' => array(
         'title' => 'Bridesmaid',
@@ -59,7 +59,7 @@ $bridesmaids = array(
             'Energetic',
             'Big-hearted'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_DebbieRidder_1440x1440_001.png'
     ),
     'Lexa Ricigliano' => array(
         'title' => 'Bridesmaid',
@@ -69,7 +69,7 @@ $bridesmaids = array(
             'Creative',
             'Sweet'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_LexaRicigliano_1440x1440_001.png'
     ),
     'Aubrey Bohn' => array(
         'title' => 'Bridesmaid',
@@ -79,6 +79,6 @@ $bridesmaids = array(
             'Unique',
             'Encouraging'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_AubreyBohn_1440x1440_001.png'
     ),
 );
