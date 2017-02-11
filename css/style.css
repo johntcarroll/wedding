@@ -3,7 +3,6 @@
 body{
     font-family: Raleway;
     color: #311023;
-    background-color: whitesmoke;
 }
 
 h1, h2, h3, h4{
@@ -231,8 +230,8 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
     text-align: center;
     color: #311023;
     padding-top: 10px;
-    
 }
+
 .overlay-menu a{
     text-decoration:  none;
     color:            #311023;
