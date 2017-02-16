@@ -374,6 +374,7 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
     border-bottom-color: #311023;
     border-bottom-width: 1px;
     border-bottom-style: solid;
+    padding-bottom: 3px;
 }
 
 .attribute-cell{

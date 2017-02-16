@@ -15,7 +15,7 @@ include "../layout/header.php";
             <img class='img img-responsive accomm-img img-center' src='../img/circular-image.png' />
         </div><!--
      --><div class='col-sm-8 col-xs-12 vcenter text-center'>
-            Hi everyone! Thanks for visiting our wedding website! A few fun facts about me:  I graduated from Drexel University in 2013 with a degree in IT and a database concentration. I played soccer for the NCAA Division I team at Drexel all 5 years I was in college.  I had a crush on Lena in our 8th grade English class! 
+            Hi everyone! Thanks for visiting our wedding website! A few fun facts about me:  I graduated from Drexel University in 2013 with a degree in IT and a database concentration. I played soccer for the NCAA Division I team at Drexel all 5 years I was in college. I work as the Director of Data Systems at luxury fashion re-seller with stores all across the US. I had a crush on Lena in our 8th grade English class! 
         </div>
     </div>
     <div class='row hidden-md hidden-lg pad-top-20'>
