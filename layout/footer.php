@@ -1,14 +1,12 @@
 <div class='row footer-row'>
     <div class='col-xs-12 col-sm-4 vcenter text-center'>
-        <ul>
-            <li><a class='header-link before after animated-link' href='<?php echo $root; ?>home/'>Home</a></li>
-            <li><a class='header-link before after animated-link' href='<?php echo $root; ?>story/'>Our Story</a></li>
-            <li><a class='header-link before after animated-link' href='<?php echo $root; ?>party/'>Wedding Party</a></li>
-            <li><a class='header-link before after animated-link' href='<?php echo $root; ?>schedule/'>Schedule</a></li>
-            <li><a class='header-link before after animated-link' href='<?php echo $root; ?>accommodations/'>Accommodations</a></li>
-            <li><a class='header-link before after animated-link' href='<?php echo $root; ?>nearby/'>Nearby</a></li>
-            <li><a class='header-link before after animated-link' href='<?php echo $root; ?>registry/'>Registry</a></li>
-        </ul>
+        <p><a class='header-link before after animated-link' href='<?php echo $root; ?>home/'>Home</a></p>
+        <p><a class='header-link before after animated-link' href='<?php echo $root; ?>story/'>Our Story</a></p>
+        <p><a class='header-link before after animated-link' href='<?php echo $root; ?>party/'>Wedding Party</a></p>
+        <p><a class='header-link before after animated-link' href='<?php echo $root; ?>schedule/'>Schedule</a></p>
+        <p><a class='header-link before after animated-link' href='<?php echo $root; ?>accommodations/'>Accommodations</a></p>
+        <p><a class='header-link before after animated-link' href='<?php echo $root; ?>nearby/'>Nearby</a></p>
+        <p><a class='header-link before after animated-link' href='<?php echo $root; ?>registry/'>Registry</a></p>
     </div><!--
  --><div class="col-xs-12 col-sm-4 vcenter">  
         <div class="row">
