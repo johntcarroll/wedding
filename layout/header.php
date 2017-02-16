@@ -29,22 +29,22 @@
                 </div>
 
                 <div class='col-xs-12 overlay-menu'>
-                    <a class='overlay-link before after' href='<?php echo $root; ?>story/'>Our Story</a>
+                    <a class='overlay-link before after animated-link' href='<?php echo $root; ?>story/'>Our Story</a>
                 </div>
                 <div class='col-xs-12 overlay-menu'>
-                    <a class='overlay-link before after' href='<?php echo $root; ?>party/'>Wedding Party</a>
+                    <a class='overlay-link before after animated-link' href='<?php echo $root; ?>party/'>Wedding Party</a>
                 </div>
                 <div class='col-xs-12 overlay-menu'>
-                    <a class='overlay-link before after' href='<?php echo $root; ?>schedule/'>Schedule</a>
+                    <a class='overlay-link before after animated-link' href='<?php echo $root; ?>schedule/'>Schedule</a>
                 </div>
                 <div class='col-xs-12 overlay-menu'>
-                    <a class='overlay-link before after' href='<?php echo $root; ?>accommodations/'>Accommodations</a>
+                    <a class='overlay-link before after animated-link' href='<?php echo $root; ?>accommodations/'>Accommodations</a>
                 </div>
                 <div class='col-xs-12 overlay-menu'>
-                    <a class='overlay-link before after' href='<?php echo $root; ?>nearby/'>Nearby</a>
+                    <a class='overlay-link before after animated-link' href='<?php echo $root; ?>nearby/'>Nearby</a>
                 </div>
                 <div class='col-xs-12 overlay-menu'>
-                    <a class='overlay-link before after' href='<?php echo $root; ?>registry/'>Registry</a>
+                    <a class='overlay-link before after animated-link' href='<?php echo $root; ?>registry/'>Registry</a>
                 </div>
             </div>
             <div class='row top-nav'>
@@ -54,22 +54,22 @@
                             <a class='brand-link' href="<?php echo $root; ?>home/"><h1>John and Lena</h1></a>
                         </div><!--
                      --><div class='col-md-1 big-nav-link vcenter'>
-                            <a class='header-link before after' href='<?php echo $root; ?>story/'>Our Story</a>
+                            <a class='header-link before after animated-link' href='<?php echo $root; ?>story/'>Our Story</a>
                         </div><!--
                      --><div class='col-md-1 big-nav-link vcenter'>
-                            <a class='header-link before after' href='<?php echo $root; ?>party/'>Wedding Party</a>
+                            <a class='header-link before after animated-link' href='<?php echo $root; ?>party/'>Wedding Party</a>
                         </div><!--
                      --><div class='col-md-1 big-nav-link vcenter'>
-                            <a class='header-link before after' href='<?php echo $root; ?>schedule/'>Schedule</a>
+                            <a class='header-link before after animated-link' href='<?php echo $root; ?>schedule/'>Schedule</a>
                         </div><!--
                      --><div class='col-md-1 big-nav-link vcenter'>
-                            <a class='header-link before after' href='<?php echo $root; ?>accommodations/'>Accommodations</a>
+                            <a class='header-link before after animated-link' href='<?php echo $root; ?>accommodations/'>Accommodations</a>
                         </div><!--
                      --><div class='col-md-1 big-nav-link vcenter'>
-                            <a class='header-link before after' href='<?php echo $root; ?>nearby/'>Nearby</a>
+                            <a class='header-link before after animated-link' href='<?php echo $root; ?>nearby/'>Nearby</a>
                          </div><!--
                      --><div class='col-md-1 big-nav-link vcenter'>
-                            <a class='header-link before after' href='<?php echo $root; ?>registry/'>Registry</a>
+                            <a class='header-link before after animated-link' href='<?php echo $root; ?>registry/'>Registry</a>
                         </div><!--
                      --><div class='col-md-1 col-md-offet-1 vcenter'>
                          <h3 class="brand-link">#RohlinWithTheCarrolls</h3>
