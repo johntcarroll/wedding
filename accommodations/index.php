@@ -10,7 +10,7 @@ include "../layout/header.php";
 </div>
 <div class='row border-bottom pad-top-10 pad-bottom-10'>
     <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6 vcenter'>
-        <img class='img img-center img-responsive accomm-img' src='../img/party-name-top.png' />
+        <img class='img img-center img-responsive accomm-img' src='../img/JL_Whyndam_color_1440x1440_001.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 vcenter accomm-info'>
         <h1>2.7 Miles from Reception</h1>
@@ -25,7 +25,7 @@ include "../layout/header.php";
 
 <div class='row pad-top-10 pad-bottom-10'>
     <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6 vcenter'>
-        <img class='img img-center img-responsive accomm-img' src='../img/party-name-top.png' />
+        <img class='img img-center img-responsive accomm-img' src='../img/JL_Hampton_color_1440x1440_001.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 vcenter accomm-info'>
         <h1>2.9 Miles from Reception</h1>

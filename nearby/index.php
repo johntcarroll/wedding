@@ -10,7 +10,7 @@ include "../layout/header.php";
 </div>
 <div class='row border-bottom pad-top-10 pad-bottom-10'>
     <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6 vcenter'>
-        <img class='img img-center img-responsive accomm-img' src='../img/party-name-top.png' />
+        <img class='img img-center img-responsive accomm-img' src='../img/JL_Longwood_Gardens_color_1440x1440_001.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 accomm-info vcenter'>
         <h1>15 Minute Drive</h1>
@@ -22,7 +22,7 @@ include "../layout/header.php";
 </div>
 <div class='row border-bottom pad-top-10 pad-bottom-10'>
     <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6 vcenter'>
-        <img class='img img-center img-responsive accomm-img' src='../img/party-name-top.png' />
+        <img class='img img-center img-responsive accomm-img' src='../img/JL_Chaddsford_Winery_color_1440x1440_001.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 accomm-info vcenter'>
         <h1>15 Minute Drive</h1>
@@ -34,11 +34,10 @@ include "../layout/header.php";
 </div>
 <div class='row pad-top-10 pad-bottom-10'>
     <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6 vcenter'>
-        <img class='img img-center img-responsive accomm-img' src='../img/party-name-top.png' />
+        <img class='img img-center img-responsive accomm-img' src='../img/JL_Downtown_West_Chester_color_1440x1440_001.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 accomm-info vcenter'>
         <h1>15 Minute Drive</h1>
-        <p><a href='http://bestwestern.com' target="_blank">Wesbite</a></p>
         <p>E Gay St, West Chester, PA 19380</p>
         <p>Quaint and historic downtown area that is fun to explore for food, shopping, and just to walk around taking in its charm.</p>
     </div>

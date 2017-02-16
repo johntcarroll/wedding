@@ -49,7 +49,7 @@ $bridesmaids = array(
             'Down-to-earth',
             'Loyal'
         ),
-        'img' => '../img/party-name-top.png'
+        'img' => '../img/JL_JenSwenson_1440x1440_001.png'
     ),
     'Debbie Ridder' => array(
         'title' => 'Bridesmaid',

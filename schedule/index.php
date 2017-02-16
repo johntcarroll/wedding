@@ -23,7 +23,7 @@ include "../layout/header.php";
     </div>
     <div class="row timeline-row middle">
         <div class="col-md-4 timeline-cell">
-            <img class="img img-responsive timeline-img img-center" src="../img/party-name-top.png" />
+            <img class="img img-responsive timeline-img img-center" src="../img/JL_Ceremony_color_1440x1440_001.png" />
         </div>
         <div class="col-md-2 timeline-cell line-top line-left line-bottom event-details left">
             <h1>Bethlehem United Methodist Church</h1>
@@ -52,12 +52,12 @@ include "../layout/header.php";
             <h1>6:00PM</h1>
         </div>
         <div class="col-md-4 timeline-cell">
-            <img class="img img-responsive timeline-img img-center" src="../img/party-name-top.png" />
+            <img class="img img-responsive timeline-img img-center" src="../img/JL_Cocktail_Hour_color_1440x1440_001.png" />
         </div>
     </div>
     <div class="row timeline-row middle">
         <div class="col-md-4 timeline-cell">
-            <img class="img img-responsive timeline-img img-center" src="../img/party-name-top.png" />
+            <img class="img img-responsive timeline-img img-center" src="../img/JL_Reception_color_1440x1440_001.png" />
         </div>
         <div class="col-md-2 timeline-cell line-left line-bottom event-details left">
             <h1>Penn Oaks CC</h1>
@@ -86,7 +86,7 @@ include "../layout/header.php";
             <h1>11:30PM</h1>
         </div>
         <div class="col-md-4 timeline-cell">
-            <img class="img img-responsive timeline-img img-center" src="../img/party-name-top.png" />
+            <img class="img img-responsive timeline-img img-center" src="../img/JL_After_Party_color_1440x1440_001.png" />
         </div>
     </div>
     <div class="row timeline-row top-bottom">
@@ -110,18 +110,18 @@ include "../layout/header.php";
     </div>
     <div class='row pad-bottom-10 pad-top-10 event-row'>
         <div class='col-xs-12 col-sm-6 vcenter'>
-            <img class="img img-responsive img-center accomm-img" src="../img/party-name-top.png" />
+            <img class="img img-responsive img-center accomm-img" src="../img/JL_Ceremony_color_1440x1440_001.png" />
         </div><!--
         --><div class='col-xs-12 col-sm-6 text-center vcenter'>
-            <h1>Penn Oaks CC</h1>
-            <p>150 Penn Oaks Drive</p>
-            <p>West Chester PA 19382</p>
+            <h1>Bethlehem United Methodist Church</h1>
+            <p>4 Westtown Road</p>
+            <p>Thornton PA 19373</p>
             <h1>4:30PM</h1><br/>
         </div>
     </div>
     <div class='row pad-bottom-10 pad-top-10 event-row'>
         <div class='col-xs-12 col-sm-6 vcenter'>
-            <img class="img img-responsive img-center accomm-img" src="../img/party-name-top.png" />
+            <img class="img img-responsive img-center accomm-img" src="../img/JL_Cocktail_Hour_color_1440x1440_001.png" />
         </div><!--
         --><div class='col-xs-12 col-sm-6 text-center vcenter'>
             <h1>Penn Oaks CC</h1>
@@ -132,7 +132,7 @@ include "../layout/header.php";
     </div>
     <div class='row pad-bottom-10 pad-top-10 event-row'>
         <div class='col-xs-12 col-sm-6 vcenter'>
-            <img class="img img-responsive img-center accomm-img" src="../img/party-name-top.png" />
+            <img class="img img-responsive img-center accomm-img" src="../img/JL_Reception_color_1440x1440_001.png" />
         </div><!--
         --><div class='col-xs-12 col-sm-6 text-center vcenter'>
             <h1>Penn Oaks CC</h1>
@@ -143,7 +143,7 @@ include "../layout/header.php";
     </div>
     <div class='row pad-bottom-10 pad-top-10 '>
         <div class='col-xs-12 col-sm-6 vcenter'>
-            <img class="img img-responsive img-center accomm-img" src="../img/party-name-top.png" />
+            <img class="img img-responsive img-center accomm-img" src="../img/JL_After_Party_color_1440x1440_001.png" />
         </div><!--
         --><div class='col-xs-12 col-sm-6 text-center vcenter'>
             <h1>Wyndham Garden Hotel</h1>

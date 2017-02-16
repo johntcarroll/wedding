@@ -46,10 +46,10 @@ include "../layout/header.php";
     </div>
     
     <div class='row pad-top-20 pad-bottom-20'>
-        <div class='col-md-3 col-sm-3 col-xs-12 vcenter'>
-            <img class='img img-responsive img-center' src="../img/poloriod.jpg" />
+        <div class='col-md-4 col-sm-4 col-xs-12 vcenter'>
+            <img class='img img-responsive img-center' src="../img/JL_RHS_Yearbook_1440x1440_001.png" />
         </div><!--
-     --><div class='col-md-8 col-lg-8 col-sm-8 col-xs-12 vcenter text-center'>
+     --><div class='col-md-7 col-lg-7 col-sm-7 col-xs-12 vcenter text-center'>
             <h1>The Beginnings</h1><br/><br/>
             Our story began at Rustin High School circa 2006 in West Chester, PA.  We were both captains of the soccer teams and irrefutably flirtatious.  While remaining friends throughout the years, we would see each other on our holiday breaks from college to enjoy time watching meteor showers, playing Jeopardy and competing for most correct answers, or spending New Year’s Eve together in Philadelphia (which remains our favorite adventurous holiday).  After college, Lena returned to West Chester.  On her August birthday of 2012, John took Lena to Teikoku for sushi.  Upon reconnecting in the same time zone, we began our deeper relationship based off the solid friendship foundation built over the years.
         </div>
