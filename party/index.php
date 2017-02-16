@@ -30,7 +30,7 @@ include "groomsmen.php";
     $count = 1;
     foreach($bridesmaids as $bridesmaid){
         if($count % 2 != 0){
-            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($bridesmaids) ? '' : 'party-row') . "'>
+            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($bridesmaids) ? 'pad-bottom-5' : 'party-row') . "'>
                     <div class='row'>
                         <div class='col-xs-12 col-sm-3 vcenter'>
                             <img class='img img-responsive accomm-img img-center' src='" . $bridesmaid['img'] . "' />
@@ -54,7 +54,7 @@ include "groomsmen.php";
                     </div>
                 </div> ";
         }else{
-            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($bridesmaids) ? '' : 'party-row') . "'>
+            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($bridesmaids) ? 'pad-bottom-5' : 'party-row') . "'>
                     <div class='row'>
                         <div class='col-xs-4 vcenter hidden-xs hidden-sm'>
                             <div class='row'>
@@ -92,7 +92,7 @@ include "groomsmen.php";
     $count = 1;
     foreach($groomsmen as $groomsman){
         if($count % 2 != 0){
-            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($groomsmen) ? '' : 'party-row') . "'>
+            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($groomsmen) ? 'pad-bottom-5' : 'party-row') . "'>
                     <div class='row'>
                         <div class='col-xs-12 col-sm-3 vcenter'>
                             <img class='img img-responsive accomm-img img-center' src='" . $groomsman['img'] . "' />
@@ -116,7 +116,7 @@ include "groomsmen.php";
                     </div>
                 </div> ";
         }else{
-            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($groomsmen) ? '' : 'party-row') . "'>
+            echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($groomsmen) ? 'pad-bottom-5' : 'party-row') . "'>
                     <div class='row'>
                         <div class='col-xs-4 vcenter hidden-xs hidden-sm'>
                             <div class='row'>
