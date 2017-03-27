@@ -27,7 +27,7 @@ $bridesmaids = array(
         'attributes' => array(
             'Gracious',
             'Intuitive',
-            'Sanguine'
+            'Optimisitic'
         ),
         'img' => '../img/JL_SarahRohleder_1440x1440_001.png'
     ),

@@ -39,9 +39,9 @@ include "groomsmen.php";
                             <h1>" . $bridesmaid['title'] . "</h1><br/><br/>
                             <h2>" . $bridesmaid['relation'] . "</h2><br/><br/>
                         </div><!--
-                     --><div class='col-xs-4 vcenter hidden-xs hidden-sm'>
+                     --><div class='col-xs-12 col-sm-4 vcenter'>
                             <div class='row'>
-                                <div class='col-xs-12 text-center'>
+                                <div class='hidden-xs col-sm-12 text-center'>
                                     <h2>Why We Love Her:</h2><br/>
                                 </div>";
                                 foreach($bridesmaid['attributes'] as $attribute){
@@ -56,7 +56,7 @@ include "groomsmen.php";
         }else{
             echo "<div class='col-xs-12 col-sm-10 col-sm-offset-1 pad-top-20 " . ($count == count($bridesmaids) ? 'pad-bottom-5' : 'party-row') . "'>
                     <div class='row'>
-                        <div class='col-xs-4 vcenter hidden-xs hidden-sm'>
+                        <div class='hidden-xs col-sm-4 vcenter'>
                             <div class='row'>
                                 <div class='col-xs-12 text-center'>
                                     <h2>Why We Love Her:</h2><br/>
@@ -78,6 +78,18 @@ include "groomsmen.php";
                      --><div class='visible-xs col-xs-12 vcenter text-center'>
                             <h1>" . $bridesmaid['title'] . "</h1><br/><br/>
                             <h2>" . $bridesmaid['relation'] . "</h2><br/><br/>
+                        </div>
+                        <div class='col-xs-12 hidden-sm hidden-md hidden-lg vcenter'>
+                            <div class='row'>
+                                <div class='hidden-xs col-sm-12 text-center'>
+                                    <h2>Why We Love Her:</h2><br/>
+                                </div>";
+                                foreach($bridesmaid['attributes'] as $attribute){
+                                    echo "<div class='col-xs-12 pad-top-5 text-center'>
+                                        <span class='party-attribute text-center'> " . $attribute . "</span>
+                                    </div>";
+                                }
+                            echo "</div>
                         </div>
                     </div>
                 </div>";
@@ -101,9 +113,9 @@ include "groomsmen.php";
                             <h1>" . $groomsman['title'] . "</h1><br/><br/>
                             <h2>" . $groomsman['relation'] . "</h2><br/><br/>
                         </div><!--
-                     --><div class='col-xs-4 vcenter hidden-xs hidden-sm'>
+                     --><div class='col-xs-12 col-sm-4 vcenter'>
                             <div class='row'>
-                                <div class='col-xs-12 text-center'>
+                                <div class='hidden-xs col-sm-12 text-center'>
                                     <h2>Why We Love Him:</h2><br/>
                                 </div>";
                                 foreach($groomsman['attributes'] as $attribute){
@@ -140,6 +152,18 @@ include "groomsmen.php";
                      --><div class='visible-xs col-xs-12 vcenter text-center'>
                             <h1>" . $groomsman['title'] . "</h1><br/><br/>
                             <h2>" . $groomsman['relation'] . "</h2><br/><br/>
+                        </div>
+                        <div class='col-xs-12 hidden-sm hidden-md hidden-lg vcenter'>
+                            <div class='row'>
+                                <div class='hidden-xs col-sm-12 text-center'>
+                                    <h2>Why We Love Him:</h2><br/>
+                                </div>";
+                                foreach($groomsman['attributes'] as $attribute){
+                                    echo "<div class='col-xs-12 pad-top-5 text-center'>
+                                        <span class='party-attribute text-center'> " . $attribute . "</span>
+                                    </div>";
+                                }
+                            echo "</div>
                         </div>
                     </div>
                 </div>";

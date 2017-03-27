@@ -13,7 +13,7 @@ include "../layout/header.php";
         <img class='img img-center img-responsive accomm-img' src='../img/JL_Longwood_Gardens_color_1440x1440_001.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 accomm-info vcenter'>
-        <h1>15 Minute Drive</h1>
+        <h1>15 Minute Drive</h1><br/><br/>
         <p>(610) 756-7600</p>
         <p><a href='https://www.longwoodgardens.org/' target="_blank">Wesbite</a></p>
         <p>1001 Longwood Road, Kennett Square,  PA 19348</p>
@@ -25,7 +25,7 @@ include "../layout/header.php";
         <img class='img img-center img-responsive accomm-img' src='../img/JL_Chaddsford_Winery_color_1440x1440_001.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 accomm-info vcenter'>
-        <h1>15 Minute Drive</h1>
+        <h1>15 Minute Drive</h1><br/><br/>
         <p>(610) 388-6221</p>
         <p><a href='https://www.chaddsford.com/' target="_blank">Wesbite</a></p>
         <p>632 Baltimore Pike, Chadds Ford, PA 19317</p>
@@ -37,8 +37,8 @@ include "../layout/header.php";
         <img class='img img-center img-responsive accomm-img' src='../img/JL_Downtown_West_Chester_color_1440x1440_001.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 accomm-info vcenter'>
-        <h1>15 Minute Drive</h1>
-        <p>E Gay St, West Chester, PA 19380</p>
+        <h1>15 Minute Drive</h1><br/><br/>
+        <p>E Gay Street, West Chester, PA 19380</p>
         <p>Quaint and historic downtown area that is fun to explore for food, shopping, and just to walk around taking in its charm.</p>
     </div>
 </div>

@@ -13,8 +13,8 @@ include "../layout/header.php";
         <img class='img img-center img-responsive accomm-img' src='../img/JL_Whyndam_color_1440x1440_001.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 vcenter accomm-info'>
-        <h1>2.7 Miles from Reception</h1>
-        <p>$134.95 per Night when booking in Carroll/Rohleder Block</p>
+        <h1>3.7 Miles from Reception</h1><br/><br/>
+        <p>$134.95 per Night when booking request group rate for <strong>Rohleder/Carroll Wedding Group</strong></p>
         <p>(610) 358-1700</p>
         <p><a href='https://www.wyndhamhotels.com/wyndham-garden/glen-mills-pennsylvania/wyndham-garden-glen-mills-wilmington/overview' target="_blank">Website</a></p>
         <p>1110 Baltimore Pike, Glen Mills, PA 19342</p>
@@ -28,11 +28,11 @@ include "../layout/header.php";
         <img class='img img-center img-responsive accomm-img' src='../img/JL_Hampton_color_1440x1440_001.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 vcenter accomm-info'>
-        <h1>2.9 Miles from Reception</h1>
-        <p>$145 per Night when booking in Carroll/Rohleder Block</p>
-        <p>(999) 999-9999</p>
+        <h1>2.9 Miles from Reception</h1><br/><br/>
+        <p>$145 per Night when booking request group rate for <strong>Rohleder/Carroll Wedding Room Block</strong></p>
+        <p>(888) 370 0981</p>
         <p><a href='http://hamptoninn3.hilton.com/en/hotels/pennsylvania/hampton-inn-and-suites-chadds-ford-CFORDHX/index.html' target="_blank">Wesbite</a></p>
-        <p>40 State Farm Dr, Glen Mills, PA 19342</p>
+        <p>40 State Farm Drive, Glen Mills, PA 19342</p>
         <p class="hidden-xs hidden-sm">Directions between Reception and Hotel - <a href="#" id="show-hotel2" onclick="return false;">Google Maps</a></p>
         <p class="hidden-md hidden-lg">Directions between Reception and Hotel - <a target="_blank" href=https://goo.gl/maps/SpRhJMfotJz">Google Maps</a></p>
     </div>

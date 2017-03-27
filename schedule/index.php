@@ -28,8 +28,8 @@ include "../layout/header.php";
         <div class="col-md-2 timeline-cell line-top line-left line-bottom event-details left">
             <h1>Bethlehem United Methodist Church</h1>
             <p>4 Westtown Road</p>
-            <p>Thornton PA 19373</p>
-            <h1>4:30PM</h1>
+            <p>Thornton, PA 19373</p>
+            <h1>4:00PM</h1>
         </div>
         <div class="col-md-2 timeline-cell line-bottom">
 
@@ -46,9 +46,9 @@ include "../layout/header.php";
 
         </div>
         <div class="col-md-2 timeline-cell line-bottom line-right event-details right">
-            <h1>Penn Oaks CC</h1>
+            <h1>Penn Oaks Golf Club</h1>
             <p>150 Penn Oaks Drive</p>
-            <p>West Chester PA 19382</p>
+            <p>West Chester, PA 19382</p>
             <h1>6:00PM</h1>
         </div>
         <div class="col-md-4 timeline-cell">
@@ -60,9 +60,9 @@ include "../layout/header.php";
             <img class="img img-responsive timeline-img img-center" src="../img/JL_Reception_color_1440x1440_001.png" />
         </div>
         <div class="col-md-2 timeline-cell line-left line-bottom event-details left">
-            <h1>Penn Oaks CC</h1>
+            <h1>Penn Oaks Golf Club</h1>
             <p>150 Penn Oaks Drive</p>
-            <p>West Chester PA 19382</p>
+            <p>West Chester, PA 19382</p>
             <h1>7:00PM</h1>
         </div>
         <div class="col-md-2 timeline-cell line-bottom">
@@ -82,7 +82,7 @@ include "../layout/header.php";
         <div class="col-md-2 timeline-cell line-bottom line-right event-details right">
             <h1>Wyndham Garden Hotel</h1>
             <p>1110 Baltimore Pike</p>
-            <p>Glen Mills PA 19342</p>
+            <p>Glen Mills, PA 19342</p>
             <h1>11:30PM</h1>
         </div>
         <div class="col-md-4 timeline-cell">
@@ -115,8 +115,8 @@ include "../layout/header.php";
         --><div class='col-xs-12 col-sm-6 text-center vcenter'>
             <h1>Bethlehem United Methodist Church</h1>
             <p>4 Westtown Road</p>
-            <p>Thornton PA 19373</p>
-            <h1>4:30PM</h1><br/>
+            <p>Thornton, PA 19373</p>
+            <h1>4:00PM</h1><br/>
         </div>
     </div>
     <div class='row pad-bottom-10 pad-top-10 event-row'>
@@ -124,9 +124,9 @@ include "../layout/header.php";
             <img class="img img-responsive img-center accomm-img" src="../img/JL_Cocktail_Hour_color_1440x1440_001.png" />
         </div><!--
         --><div class='col-xs-12 col-sm-6 text-center vcenter'>
-            <h1>Penn Oaks CC</h1>
+            <h1>Penn Oaks Golf Club</h1>
             <p>150 Penn Oaks Drive</p>
-            <p>West Chester PA 19382</p>
+            <p>West Chester, PA 19382</p>
             <h1>6:00PM</h1><br/>
         </div>
     </div>
@@ -135,9 +135,9 @@ include "../layout/header.php";
             <img class="img img-responsive img-center accomm-img" src="../img/JL_Reception_color_1440x1440_001.png" />
         </div><!--
         --><div class='col-xs-12 col-sm-6 text-center vcenter'>
-            <h1>Penn Oaks CC</h1>
+            <h1>Penn Oaks Golf Club</h1>
             <p>150 Penn Oaks Drive</p>
-            <p>West Chester PA 19382</p>
+            <p>West Chester, PA 19382</p>
             <h1>7:00PM</h1><br/>
         </div>
     </div>
@@ -148,7 +148,7 @@ include "../layout/header.php";
         --><div class='col-xs-12 col-sm-6 text-center vcenter'>
             <h1>Wyndham Garden Hotel</h1>
             <p>1110 Baltimore Pike</p>
-            <p>Glen Mills PA 19342</p>
+            <p>Glen Mills, PA 19342</p>
             <h1>11:30PM</h1>
         </div>
     </div>
