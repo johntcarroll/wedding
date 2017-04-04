@@ -4,8 +4,8 @@ $title = "John and Lena's Wedding Website";
 include "../layout/header.php";
 ?>
 <div class='row'>
-    <div class='col-xs-12 home-bg'>
-        
+    <div class='col-xs-12 other-bg'>
+        <h1>Schedule</h1>
     </div>
 </div>
 
@@ -13,7 +13,7 @@ include "../layout/header.php";
     <div class="row">
         <div class="col-md-12 text-center">
             <h1>Saturday</h1><br/>
-            <h1>September 30th, 2017</h1>
+            <h1>September 30, 2017</h1>
         </div>
     </div>
     <div class="row timeline-row top-bottom">

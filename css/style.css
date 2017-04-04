@@ -1,5 +1,10 @@
 /* SITE */
 
+@font-face {
+    font-family: heartwell;
+    src: url("../fonts/Heartwell.otf") format("opentype");
+}
+
 body{
     font-family: Raleway;
     color: #311023;
@@ -9,6 +14,66 @@ h1, h2, h3, h4{
     font-family: 'Dancing Script', cursive;
     display: inline;
     color: #7f878c;
+}
+
+.other-bg h1{
+    font-family: 'heartwell', cursive;
+    display: inline;
+    color: white;
+    transform: rotate(340deg);
+}
+
+@media only screen and (min-width : 1px) {
+    .other-bg h1{
+        font-size: 65px;
+    }
+    
+    .other-bg{
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .other-bg h1{
+        font-size: 100px;
+    }
+    
+    .other-bg{
+        height: 400px;
+    }
+}
+
+
+@media only screen and (min-width : 768px) {
+    .other-bg h1{
+        font-size: 125px;
+    }
+    
+    .other-bg{
+        height: 450px;
+    }
+}
+
+
+@media only screen and (min-width : 992px) {
+    .other-bg h1{
+        font-size: 150px;
+    }
+    
+    .other-bg{
+        height: 500px;
+    }
+}
+
+
+@media only screen and (min-width : 1200px){
+    .other-bg h1{
+        font-size: 175px;
+    }
+    
+    .other-bg{
+        height: 550px;
+    }
 }
 
 .vcenter {
@@ -264,7 +329,7 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 /* HOME PAGE */
 
 .home-bg{
-    background-image: url('../img/home-jumbo.jpg');
+    background-image: url('../img/home-bg.jpg');
     background-position: 100% 75%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -272,6 +337,19 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
     height: 550px;
     z-index: -1;
 }
+
+.other-bg{
+    background-image: url('../img/flower-bg.jpg');
+    background-position: 100% 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    z-index: -1;
+}
+
 
 /* Our Story */
 

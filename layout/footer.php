@@ -11,10 +11,10 @@
  --><div class="col-xs-12 col-sm-4 vcenter">  
         <div class="row">
             <div class="col-xs-6">
-                <img class="img img-responsive img-small img-center" src="../img/circular-image.png">
+                <img class="img img-responsive img-small img-center" src="../img/JL_Groom_color_1440x1440_001.png">
             </div>
             <div class="col-xs-6">
-                <img class="img img-responsive img-small img-center" src="../img/circular-image.png">
+                <img class="img img-responsive img-small img-center" src="../img/JL_Bride_color_1440x1440_001.png">
             </div>
         </div>
         <div class="row">

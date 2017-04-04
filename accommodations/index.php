@@ -4,18 +4,18 @@ $title = "John and Lena's Wedding Website";
 include "../layout/header.php";
 ?>
 <div class='row'>
-    <div class='col-xs-12 home-bg'>
-        
+    <div class='col-xs-12 other-bg'>
+        <h1>Accommodations</h1>
     </div>
 </div>
 <div class='row border-bottom pad-top-10 pad-bottom-10'>
     <div class='col-xs-12 col-sm-6 col-md-6 col-lg-6 vcenter'>
-        <img class='img img-center img-responsive accomm-img' src='../img/JL_Whyndam_color_1440x1440_001.png' />
+        <img class='img img-center img-responsive accomm-img' src='../img/JL_Wyndham_color_1440x1440_002.png' />
     </div><!--
  --><div class='col-xs-12 col-sm-6 vcenter accomm-info'>
         <h1>3.7 Miles from Reception</h1><br/><br/>
         <p>$134.95 per Night when booking request group rate for <strong>Rohleder/Carroll Wedding Group</strong></p>
-        <p>(610) 358-1700</p>
+        <p>(610) 358-1700 ext. 3 - Ask for Paige</p>
         <p><a href='https://www.wyndhamhotels.com/wyndham-garden/glen-mills-pennsylvania/wyndham-garden-glen-mills-wilmington/overview' target="_blank">Website</a></p>
         <p>1110 Baltimore Pike, Glen Mills, PA 19342</p>
         <p class="hidden-xs hidden-sm">Directions between Reception and Hotel - <a href="#" id="show-hotel1" onclick="return false;">Google Maps</a></p>
