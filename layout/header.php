@@ -25,7 +25,7 @@
                     <a href='#' id='nav-close-overlay'><span class='glyphicon glyphicon-remove'></span></a>
                 </div>
                 <div class="col-xs-12 overlay-menu">
-                    <h1 class="nav-header">Lena and John</h1>
+                    <a href='<?php echo $root; ?>home/'><h1 class="nav-header">Lena and John</h1></a>
                 </div>
 
                 <div class='col-xs-12 overlay-menu'>
@@ -46,11 +46,14 @@
                 <div class='col-xs-12 overlay-menu'>
                     <a class='overlay-link before after animated-link' href='<?php echo $root; ?>registry/'>Registry</a>
                 </div>
+                <div class='col-xs-12 overlay-menu'>
+                    <a class='overlay-link before after animated-link' href='<?php echo $root; ?>thankyou/'>Thank You</a>
+                </div>
             </div>
             <div class='row top-nav'>
                 <div class='col-md-12  hidden-md hidden-sm hidden-xs'>
                     <div class='row big-nav'>
-                        <div class='col-md-3 big-nav-link vcenter'>
+                        <div class='col-md-2 big-nav-link vcenter'>
                             <a class='brand-link' href="<?php echo $root; ?>home/"><h1>John and Lena</h1></a>
                         </div><!--
                      --><div class='col-md-1 big-nav-link vcenter'>
@@ -70,6 +73,9 @@
                          </div><!--
                      --><div class='col-md-1 big-nav-link vcenter'>
                             <a class='header-link before after animated-link' href='<?php echo $root; ?>registry/'>Registry</a>
+                        </div><!--
+                        --><div class='col-md-1 big-nav-link vcenter'>
+                            <a class='header-link before after animated-link' href='<?php echo $root; ?>thankyou/'>Thank you</a>
                         </div><!--
                      --><div class='col-md-1 col-md-offet-1 vcenter'>
                          <h3 class="brand-link">#RohlinWithTheCarrolls</h3>

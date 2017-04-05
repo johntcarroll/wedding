@@ -76,7 +76,7 @@ $groomsmen = array(
         'relation' => 'Friend',
         'attributes' => array(
             'Funny',
-            'Atriculate',
+            'Articulate',
             'Resolute'
         ),
         'img' => '../img/JL_DJCorreale_1440x1440_001.png'

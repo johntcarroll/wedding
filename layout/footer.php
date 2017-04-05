@@ -7,6 +7,7 @@
         <p><a class='header-link before after animated-link' href='<?php echo $root; ?>accommodations/'>Accommodations</a></p>
         <p><a class='header-link before after animated-link' href='<?php echo $root; ?>nearby/'>Nearby</a></p>
         <p><a class='header-link before after animated-link' href='<?php echo $root; ?>registry/'>Registry</a></p>
+         <p><a class='header-link before after animated-link' href='<?php echo $root; ?>thankyou/'>Thank You</a></p>
     </div><!--
  --><div class="col-xs-12 col-sm-4 vcenter">  
         <div class="row">

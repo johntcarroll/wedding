@@ -14,8 +14,10 @@ include "../layout/header.php";
     </div><!--
  --><div class='col-xs-12 col-sm-4 pad-top-20 vcenter'>
      <div class="row text-center">
-         <h1>Welcome to our Wedding Website</h1><br/><br/>
-        <p>We could not be more excited to share this special time with you all!  Thank you for traveling great distances to be with us and for the support, encouragement, love and laughter. Please check out the other pages of the site for all the information you need to prepare for the big celebration.</p>
+         <div class='col-xs-12'>
+             <h1>Welcome to our Wedding Website</h1><br/><br/>
+            <p>We could not be more excited to share this special time with you all!  Thank you for traveling great distances to be with us and for the support, encouragement, love and laughter. Please check out the other pages of the site for all the information you need to prepare for the big celebration.</p>
+         </div>
     </div>
 </div>
 <script type='text/javascript' src='home.js'></script>
