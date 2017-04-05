@@ -13,7 +13,7 @@ include "../layout/header.php";
         <h1>About Our Website</h1>
     </div>
 </div>
-<div class='row pad-top-20'>
+<div class='row pad-top-20 pad-bottom-20'>
     <div class='col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 text-center'>
         <p>First of all, a MASSIVE thank you is owed to Matthew Roeder. All the beautiful images and graphics you see on this site are his handywork. THANK YOU MATT WE LOVE YOU!!!</p>
         <p>Secondly thank you to our parents! Jay, Karen, John and Lisa have been overwhelmingly supportive and never overbearing. We are so thankful for this balance and feel blessed to have amazing parents in our lives.</p>
