@@ -15,7 +15,7 @@ include "../layout/header.php";
             <img class='img img-responsive accomm-img img-center' src='../img/JL_Groom_color_1440x1440_001.png' />
         </div><!--
      --><div class='col-sm-8 col-xs-12 vcenter text-center'>
-            Hi everyone! A few fun facts about me: I was born and raised right here in West Chester, PA. I graduated from Drexel University in 2013 with a degree in IT and a database concentration. I played soccer for the NCAA Division I team at Drexel all 5 years I was in college. I work as the Director of Data Systems a luxury fashion re-seller with stores all across the US. I had a crush on Lena in our 8th grade English class! 
+            Hi everyone! A few fun facts about me: I was born and raised right here in West Chester, PA. I graduated from Drexel University in 2013 with a degree in IT and a database concentration. I played soccer for the NCAA Division I team at Drexel all 5 years I was in college. I work as the Director of Data Systems at a luxury fashion re-seller with stores all across the US. I had a crush on Lena in our 8th grade English class! 
         </div>
     </div>
     <div class='row hidden-md hidden-lg pad-top-20'>
@@ -35,7 +35,7 @@ include "../layout/header.php";
             <img class='img img-responsive accomm-img' src='../img/JL_Groom_color_1440x1440_001.png' />
         </div><!--
      --><div class='col-md-4 col-lg-3 vcenter'>
-         Hi everyone! A few fun facts about me: I was born and raised right here in West Chester, PA. I graduated from Drexel University in 2013 with a degree in IT and a database concentration. I played soccer for the NCAA Division I team at Drexel all 5 years I was in college. I work as the Director of Data Systems a luxury fashion re-seller with stores all across the US. I had a crush on Lena in our 8th grade English class! 
+         Hi everyone! A few fun facts about me: I was born and raised right here in West Chester, PA. I graduated from Drexel University in 2013 with a degree in IT and a database concentration. I played soccer for the NCAA Division I team at Drexel all 5 years I was in college. I work as the Director of Data Systems at a luxury fashion re-seller with stores all across the US. I had a crush on Lena in our 8th grade English class! 
         </div><!--
      --><div class='col-md-4 col-lg-3 vcenter'>
             Welcome! Little ol’ me in a nutshell: I was born in Tallahassee, FL and lived in Denver, CO while growing up before moving to PA. I went to school for biology at Kansas State University and now work in the clinical research industry for a CRO.  I enjoy Eagle’s Sundays with John and dreaming up ideas for our 1860’s fixer-upper home in the West Chester Borough.  You can find me crafting, cooking, playing soccer or beating John at Hearthstone.
