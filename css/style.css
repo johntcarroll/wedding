@@ -327,6 +327,12 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
 }
 
 /* HOME PAGE */
+.home-bg h1{
+    font-family: 'heartwell', cursive;
+    display: inline;
+    color: white;
+    transform: rotate(340deg);
+}
 
 .home-bg{
     background-image: url('../img/home-bg.jpg');
@@ -335,7 +341,67 @@ a.overlay-link.before:hover:before,a.overlay-link.after:hover:after{
     background-repeat: no-repeat;
     width: 100%;
     height: 550px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
     z-index: -1;
+}
+
+@media only screen and (min-width : 1px) {
+    .home-bg h1{
+        font-size: 65px;
+    }
+    
+    .home-bg{
+        background-image: url('../img/flower-bg.jpg');
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .home-bg h1{
+        font-size: 100px;
+    }
+    
+    .home-bg{
+        background-image: url('../img/flower-bg.jpg');
+        height: 250px;
+    }
+}
+
+
+@media only screen and (min-width : 768px) {
+    .home-bg h1{
+        font-size: 125px;
+    }
+    
+    .home-bg{
+        background-image: url('../img/flower-bg.jpg');
+        height: 300px;
+    }
+}
+
+
+@media only screen and (min-width : 992px) {
+    .home-bg h1{
+        font-size: 150px;
+    }
+    
+    .home-bg{
+        background-image: url('../img/home-bg.jpg');
+        height:550px;
+    }
+}
+
+
+@media only screen and (min-width : 1200px){
+    .home-bg h1{
+        font-size: 175px;
+    }
+    
+    .home-bg{
+        background-image: url('../img/home-bg.jpg');
+    }
 }
 
 .other-bg{

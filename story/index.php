@@ -6,7 +6,7 @@ include "../layout/header.php";
 <div class='page-wrap' id='story'>
     <div class='row'>
         <div class='col-xs-12 other-bg'>
-            <h1>Our Story</h1>
+            <h1>our story</h1>
         </div>
     </div>
 

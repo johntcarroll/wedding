@@ -5,7 +5,7 @@ include "../layout/header.php";
 ?>
 <div class='row'>
     <div class='col-xs-12 other-bg'>
-        <h1>Schedule</h1>
+        <h1>schedule</h1>
     </div>
 </div>
 

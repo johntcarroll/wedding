@@ -5,7 +5,7 @@ include "../layout/header.php";
 ?>
 <div class='row'>
     <div class='col-xs-12 other-bg'>
-        <h1>Registry</h1>
+        <h1>registry</h1>
     </div>
 </div>
 <div class="row pad-top-20">

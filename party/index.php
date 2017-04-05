@@ -8,8 +8,8 @@ include "groomsmen.php";
 
 <div class='row'>
     <div class='col-xs-12 other-bg'>
-        <h1>Wedding</h1>
-        <h1>Party</h1>
+        <h1>wedding</h1>
+        <h1>party</h1>
     </div>
 </div>
 

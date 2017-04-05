@@ -5,7 +5,7 @@ include "../layout/header.php";
 ?>
 <div class='row'>
     <div class='col-xs-12 home-bg'>
-        
+        <h1 class='hidden-lg hidden-md'>09-30-17</h1>
     </div>
 </div>
 <div class='row'>
