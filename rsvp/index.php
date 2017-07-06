@@ -11,10 +11,10 @@ include "../layout/header.php";
 <form method='post' action='../thankyou/index.php' id='rsvp_form'>
     <div class='row'>
         <div class='col-xs-12 text-center'>
-            <h4>Please complete the fields below to RSVP</h4>
+            <h2>Please complete the fields below to RSVP</h2>
         </div>
     </div>
-    <div class='row' id='starting_line'>
+    <div class='row' id='starting_line pad-top-10'>
         <div class='col-xs-4'>
             <label>First Name</label>
             <input class='form-control' name='start_fname' id='start_fname' />

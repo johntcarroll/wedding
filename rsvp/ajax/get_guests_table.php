@@ -12,8 +12,8 @@ foreach($foodoptions as $fo){
 $dropdown .= "</select>";
 
 $line_template = "
-    <div class='row'>
-        <div class='col-xs-12 text-right'>
+    <div class='row pad-top-10'>
+        <div class='col-xs-12 text-right pad-bottom-10'>
             <div class='btn-group'>
                 <button class='btn btn-sm btn-default' type='button' id='add_guest'>Add Guest</button>
                 <button class='btn btn-sm btn-default' type='button' id='remove_guest'>Remove Guest</button>
@@ -45,6 +45,9 @@ for ($count = 1; $count <= $guests; $count++) {
             </div>
         </div>
     ";
+    if($count != $guests - 1){
+        $line_template .= "<hr/>";
+    }
 }
 
 echo $line_template;
