@@ -14,7 +14,7 @@ include "../layout/header.php";
             <h2>Please complete the fields below to RSVP</h2>
         </div>
     </div>
-    <div class='row' id='starting_line pad-top-10'>
+    <div class='row' class='pad-top-10' id='starting_line'>
         <div class='col-xs-4'>
             <label>First Name</label>
             <input class='form-control' name='start_fname' id='start_fname' />
