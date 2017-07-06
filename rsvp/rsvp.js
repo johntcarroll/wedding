@@ -21,7 +21,9 @@ $(document).on('click', '#add_guest', function(){
 });
 
 $(document).on('click', '#remove_guest', function(){
-    $(".guest-container").last().remove();
+    if($(".guest-container").length != 1){
+        $(".guest-container").last().remove();
+    }
 });
 
 function verify_rsvp_form(){
@@ -61,6 +63,7 @@ function add_guest_line(){
         method: 'post',
         dataType: 'text',
         success:function(text){
+            $(".guest-container").last().append("<hr/>");
             $(".guest-container").last().after(text);
         },
         error: function(data){
