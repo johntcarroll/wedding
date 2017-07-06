@@ -39,10 +39,12 @@ include "../layout/header.php";
             </select>
         </div>
     </div>
-    <div class='row'>
-        <button type='submit' class='btn btn-success' name='continue_button' value='1' id='continue'>
-            Continue!
-        </button>
+    <div class='row pad-top-10'>
+        <div class='col-xs-12'>
+            <button type='submit' class='btn btn-success' name='continue_button' value='1' id='continue'>
+                Continue!
+            </button>
+        </div>
     </div>
 </form>
 <script type='text/javascript' src='rsvp.js'></script>
