@@ -32,7 +32,7 @@ $line_template .= "
             </div>
             <div class='col-xs-12 col-sm-12 col-md-12 col-lg-3'>
                 <label>Guest #" . $count . " Dietary Restrictions</label>
-                <textarea class='form-control' name='dietary[]'></textarea>
+                <input type='text' class='form-control' name='dietary[]'>
             </div>
         </div>
     </div>
