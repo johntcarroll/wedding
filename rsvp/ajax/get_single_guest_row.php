@@ -1,6 +1,7 @@
 <?php
 include "../../controller/config.php";
-$count = $_POST['count'];
+$count = $_POST['guests'];
+$count++;
 
 $foodoptions = Foodoption::all();
 $dropdown = "<select class='form-control' name='foodoption[]'>";

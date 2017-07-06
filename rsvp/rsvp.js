@@ -16,6 +16,14 @@ $("#rsvp_form").submit(function($e) {
   }
 });
 
+$(document).on('click', '#add_guest', function(){
+    add_guest_line();
+});
+
+$(document).on('click', '#remove_guest', function(){
+    $(".guest-container").last().remove();
+});
+
 function verify_rsvp_form(){
 
 }
@@ -36,6 +44,24 @@ function load_guest_lines(){
         success:function(text){
             $("#starting_line").after(text);
             $("#starting_line").addClass("hidden");
+        },
+        error: function(data){
+            alert('AJAX SCRIPT ERROR. Check dev panel (F12) for details');
+        }
+    });
+}
+
+function add_guest_line(){
+    $guests = $('.guest-container').length;
+    $.ajax({
+        url: "ajax/get_single_guest_row.php",
+        data:{
+            guests: $guests
+        },
+        method: 'post',
+        dataType: 'text',
+        success:function(text){
+            $(".guest-container").last().after(text);
         },
         error: function(data){
             alert('AJAX SCRIPT ERROR. Check dev panel (F12) for details');
