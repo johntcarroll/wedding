@@ -43,11 +43,11 @@ for ($count = 1; $count <= $guests; $count++) {
                     <input type='text' class='form-control' name='dietary[]'>
                 </div>
             </div>
-        </div>
     ";
     if($count != $guests){
         $line_template .= "<hr/>";
     }
+    $line_template .= "</div>";
 }
 
 echo $line_template;
