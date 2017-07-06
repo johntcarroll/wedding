@@ -22,7 +22,6 @@ $(document).on('click', '#add_guest', function(){
 
 $(document).on('click', '#remove_guest', function(){
     if($(".guest-container").length != 1){
-        $("<hr/>").last().remove();
         $(".guest-container").last().remove();
     }
 });
@@ -64,7 +63,9 @@ function add_guest_line(){
         method: 'post',
         dataType: 'text',
         success:function(text){
-            $(".guest-container").last().append("<hr/>");
+            if($guests > 1){
+                $(".guest-container").last().append("<hr/>");
+            }
             $(".guest-container").last().after(text);
         },
         error: function(data){
