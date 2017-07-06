@@ -45,7 +45,7 @@ for ($count = 1; $count <= $guests; $count++) {
             </div>
         </div>
     ";
-    if($count != $guests - 1){
+    if($count != $guests){
         $line_template .= "<hr/>";
     }
 }
