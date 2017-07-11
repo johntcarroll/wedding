@@ -15,15 +15,15 @@ include "../layout/header.php";
         </div>
     </div>
     <div class='row' class='pad-top-10' id='starting_line'>
-        <div class='col-xs-4'>
+        <div class='col-sm-4 col-xs-12'>
             <label>First Name</label>
             <input class='form-control' name='start_fname' id='start_fname' />
         </div>
-        <div class='col-xs-4'>
+        <div class='col-sm-4 col-xs-12'>
             <label>Last Name</label>
             <input class='form-control' name='start_lname' id='start_lname' />
         </div>
-        <div class='col-xs-4'>
+        <div class='col-sm-4 col-xs-12'>
             <label>Number of Guests Attending</label>
             <select class='form-control' name='guests_attending' id='guests_attending'>
                 <option value='0'>0</option>

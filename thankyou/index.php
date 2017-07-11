@@ -2,10 +2,24 @@
 $root = "../";
 $title = "John and Lena's Wedding Website";
 include "../layout/header.php";
+include "saveResponses.php";
+
 ?>
 <div class='row'>
     <div class='col-xs-12 other-bg'>
         <h1>thank you</h1>
+    </div>
+</div>
+<div class='row pad-top-20'>
+    <div class='col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 text-center'>
+        <div class='alert alert-<?=$alertType?> <?php echo (!$alert ? 'hidden' : '') ?>' id='page-alert'>
+            <button type="button" class="close" onClick='$(this).closest(".alert").addClass("hidden");'>
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div id='page-alert-message'>
+                <?=$alertMessage;?>
+            </div>
+        </div>
     </div>
 </div>
 <div class='row pad-top-20'>

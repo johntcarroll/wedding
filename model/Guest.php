@@ -6,7 +6,7 @@ class Guest extends ActiveRecord\Model {
         array('response')
     );
 
-    static $has_many = array(
-        array('foodselections')
+    static $has_one = array(
+        array('foodoption')
     );
 }

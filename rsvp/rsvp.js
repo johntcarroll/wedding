@@ -1,13 +1,16 @@
 $("#rsvp_form").submit(function($e) {
   if($(".guest-container").length == 0){
       if($("guests_attending").val() == 0){
-          return;
+          if(verify_rsvp_form()){
+              return;
+          }else{
+              $e.preventDefault();
+          }
       }else{
           $e.preventDefault();
           load_guest_lines();
       }
   }else{
-
       if(verify_rsvp_form()){
           return;
       }else{
@@ -17,12 +20,15 @@ $("#rsvp_form").submit(function($e) {
 });
 
 $(document).on('click', '#add_guest', function(){
-    add_guest_line();
+    if($(".guest-container").length < 10){
+        add_guest_line();
+    }
 });
 
 $(document).on('click', '#remove_guest', function(){
     if($(".guest-container").length != 1){
         $(".guest-container").last().remove();
+        $("#guests_attending").val($("#guests_attending").val() + 1);
     }
 });
 
@@ -67,6 +73,7 @@ function add_guest_line(){
                 $(".guest-container").last().append("<hr/>");
             }
             $(".guest-container").last().after(text);
+            $("#guests_attending").val($("#guests_attending").val() + 1);
         },
         error: function(data){
             alert('AJAX SCRIPT ERROR. Check dev panel (F12) for details');
