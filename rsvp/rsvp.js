@@ -33,7 +33,7 @@ $(document).on('click', '#remove_guest', function(){
 });
 
 function verify_rsvp_form(){
-
+    return true;
 }
 
 function load_guest_lines(){
