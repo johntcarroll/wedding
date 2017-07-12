@@ -1,7 +1,6 @@
 <?php
 $root = "../";
 $title = "John and Lena's Wedding Website";
-include "../controller/config.php";
 include "../layout/header.php";
 ?>
 <div class='row'>
