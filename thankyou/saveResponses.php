@@ -25,7 +25,7 @@ if($start_fname && $start_lname && count($fnames) == $guests_attending && count(
     $response = new Response();
     $response->fname = $start_fname;
     $response->lname = $start_lname;
-    $response->accepts = ($guest_attending > 0 : 1 : 0);
+    $response->accepts = ($guest_attending > 0 ? 1 : 0);
     $response->note = $note;
 
     //set up success alert message depending on accepts or regrets
