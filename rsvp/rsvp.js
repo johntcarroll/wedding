@@ -28,7 +28,7 @@ $(document).on('click', '#add_guest', function(){
 $(document).on('click', '#remove_guest', function(){
     if($(".guest-container").length != 1){
         $(".guest-container").last().remove();
-        $("#guests_attending").val($("#guests_attending").val() + 1);
+        $("#guests_attending").val(+$("#guests_attending").val() - 1);
     }
 });
 
@@ -73,7 +73,7 @@ function add_guest_line(){
                 $(".guest-container").last().append("<hr/>");
             }
             $(".guest-container").last().after(text);
-            $("#guests_attending").val($("#guests_attending").val() + 1);
+            $("#guests_attending").val(+$("#guests_attending").val() + 1);
         },
         error: function(data){
             alert('AJAX SCRIPT ERROR. Check dev panel (F12) for details');
