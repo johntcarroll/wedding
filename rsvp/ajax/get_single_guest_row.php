@@ -13,11 +13,6 @@ $dropdown .= "</select>";
 $line_template .= "
     <div class='guest-container'>
         <div class='row'>
-            <div class='col-xs-12'>
-                <h4>Guest #" . $count . "</h4>
-            </div>
-        </div>
-        <div class='row'>
             <div class='col-xs-12 col-sm-6 col-md-6 col-lg-3'>
                 <label>Guest #" . $count . " First Name</label>
                 <input class='form-control required' type='text' placeholder='First Name' name='fname[]'/>
