@@ -44,21 +44,23 @@ if($start_fname && $start_lname && count($fnames) == $guests_attending && count(
     }
 }
 
-if($response->save()){
-    foreach($built_guests as $guest){
-        $guest->response_id = $response->id;
-        if(!$guest->save()){
-            $guest_error = TRUE;
-            $alertType = 'danger';
-            $alertMessage = 'There has been an error. RSVP not recieved. Please try again later.';
-            break;
-        }else{
-            array_push($saved_guests, $guest);
+if($response){
+    if($response->save()){
+        foreach($built_guests as $guest){
+            $guest->response_id = $response->id;
+            if(!$guest->save()){
+                $guest_error = TRUE;
+                $alertType = 'danger';
+                $alertMessage = 'There has been an error. RSVP not recieved. Please try again later.';
+                break;
+            }else{
+                array_push($saved_guests, $guest);
+            }
         }
+    }else{
+        $alertType = 'danger';
+        $alertMessage = 'There has been an error. RSVP not recieved. Please try again later.';
     }
-}else{
-    $alertType = 'danger';
-    $alertMessage = 'There has been an error. RSVP not recieved. Please try again later.';
 }
 
 if($guest_error){

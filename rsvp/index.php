@@ -17,11 +17,11 @@ include "../layout/header.php";
     <div class='row pad-top-10' id='starting_line'>
         <div class='col-sm-4 col-xs-12'>
             <label>First Name</label>
-            <input class='form-control' name='start_fname' id='start_fname' />
+            <input class='form-control required' name='start_fname' id='start_fname' />
         </div>
         <div class='col-sm-4 col-xs-12'>
             <label>Last Name</label>
-            <input class='form-control' name='start_lname' id='start_lname' />
+            <input class='form-control required' name='start_lname' id='start_lname' />
         </div>
         <div class='col-sm-4 col-xs-12'>
             <label>Number of Guests Attending</label>

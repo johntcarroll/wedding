@@ -33,6 +33,12 @@ $(document).on('click', '#remove_guest', function(){
 });
 
 function verify_rsvp_form(){
+    $verified = true;
+    $(".required").each(function(){
+        if($(this).val() == ''){
+            $verified = false;
+        }
+    });
     return true;
 }
 
