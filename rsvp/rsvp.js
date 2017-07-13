@@ -39,7 +39,10 @@ function verify_rsvp_form(){
             $verified = false;
         }
     });
-    return true;
+    if(!$verified){
+        alert("Please complete all required fields marked with a *");
+    }
+    return $verified;
 }
 
 function load_guest_lines(){
