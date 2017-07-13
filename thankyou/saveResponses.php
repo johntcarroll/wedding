@@ -4,8 +4,6 @@ $start_fname = ($_POST['start_fname'] ? $_POST['start_fname'] : NULL);
 $start_lname = ($_POST['start_lname'] ? $_POST['start_lname'] : NULL);
 $guests_attending = ($_POST['guests_attending'] ? $_POST['guests_attending'] : NULL);
 $guests_attending = (int)$guests_attending;
-var_dump($guests_attending);
-die();
 $fnames = ($_POST['fname'] ? $_POST['fname'] : array());
 $lnames = ($_POST['lname'] ? $_POST['lname'] : array());
 $foodoptions = ($_POST['foodoption'] ? $_POST['foodoption'] : array());
@@ -28,7 +26,7 @@ if($start_fname && $start_lname && count($fnames) == $guests_attending && count(
     $response = new Response();
     $response->fname = $start_fname;
     $response->lname = $start_lname;
-    $response->accepts = ($guest_attending > 0 ? TRUE : FALSE);
+    $response->accepts = ($guests_attending > 0 ? TRUE : FALSE);
     $response->note = $note;
 
     //set up success alert message depending on accepts or regrets
