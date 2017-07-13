@@ -1,6 +1,6 @@
 $("#rsvp_form").submit(function($e) {
   if($(".guest-container").length == 0){
-      if($("guests_attending").val() == "0"){
+      if($("#guests_attending").val() == "0"){
           if(verify_rsvp_form()){
               return;
           }else{
