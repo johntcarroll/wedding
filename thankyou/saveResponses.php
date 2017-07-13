@@ -30,7 +30,7 @@ if($start_fname && $start_lname && count($fnames) == $guests_attending && count(
     $response->note = $note;
 
     //set up success alert message depending on accepts or regrets
-    $alertMessage = ($guest_attending > 0 ? 'Thank you. Your RSVP has been recieved. See you September 30th!' : 'Your RSVP has been recieved. Sorry to hear you cannot make it!');
+    $alertMessage = ($guests_attending > 0 ? 'Thank you. Your RSVP has been recieved. See you September 30th!' : 'Your RSVP has been recieved. Sorry to hear you cannot make it!');
 
     if($guests_attending > 0){
         for($x = $guests_attending - 1; $x--; $x >= 0){
