@@ -8,7 +8,9 @@ $("#rsvp_form").submit(function($e) {
           }
       }else{
           $e.preventDefault();
-          load_guest_lines();
+          if(verify_rsvp_form()){
+              load_guest_lines();
+          }
       }
   }else{
       if(verify_rsvp_form()){
