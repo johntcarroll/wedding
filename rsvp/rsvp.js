@@ -20,7 +20,7 @@ $("#rsvp_form").submit(function($e) {
 });
 
 $(document).on('click', '#add_guest', function(){
-    if($(".guest-container").length < 10){
+    if($(".guest-container").length < 9){
         add_guest_line();
     }
 });
