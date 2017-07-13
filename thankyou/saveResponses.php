@@ -1,5 +1,7 @@
 <?php
 //grab POST data
+print_r($_POST);
+die();
 $start_fname = ($_POST['start_fname'] ? $_POST['start_fname'] : NULL);
 $start_lname = ($_POST['start_lname'] ? $_POST['start_lname'] : NULL);
 $guests_attending = ($_POST['guests_attending'] ? $_POST['guests_attending'] : NULL);
