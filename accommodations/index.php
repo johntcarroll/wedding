@@ -20,6 +20,7 @@ include "../layout/header.php";
         <p>1110 Baltimore Pike, Glen Mills, PA 19342</p>
         <p class="hidden-xs hidden-sm">Directions between Reception and Hotel - <a href="#" id="show-hotel1" onclick="return false;">Google Maps</a></p>
         <p class="hidden-md hidden-lg">Directions between Reception and Hotel - <a target="_blank" href="https://goo.gl/maps/mSn9g85ZAYz">Google Maps</a></p>
+        <p><strong>Shuttle Serivce to and from reception venue provided.</strong></p>
     </div>
 </div>
 
@@ -34,7 +35,8 @@ include "../layout/header.php";
         <p><a href='http://hamptoninn3.hilton.com/en/hotels/pennsylvania/hampton-inn-and-suites-chadds-ford-CFORDHX/index.html' target="_blank">Wesbite</a></p>
         <p>40 State Farm Drive, Glen Mills, PA 19342</p>
         <p class="hidden-xs hidden-sm">Directions between Reception and Hotel - <a href="#" id="show-hotel2" onclick="return false;">Google Maps</a></p>
-        <p class="hidden-md hidden-lg">Directions between Reception and Hotel - <a target="_blank" href=https://goo.gl/maps/SpRhJMfotJz">Google Maps</a></p>
+        <p class="hidden-md hidden-lg">Directions between Reception and Hotel - <a target="_blank" href="https://goo.gl/maps/SpRhJMfotJz">Google Maps</a></p>
+        <p><strong>No shuttle service provided.</strong></p>
     </div>
 </div>
 
@@ -46,7 +48,7 @@ include "../layout/header.php";
                 <h4 class="modal-title">Wyndham Garden Hotel to Penn Oaks County Club</h4>
             </div>
             <div class="modal-body">
-                
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -63,7 +65,7 @@ include "../layout/header.php";
                 <h4 class="modal-title">Hampton Inn & Suites Chadds Ford to Penn Oaks County Club</h4>
             </div>
             <div class="modal-body">
-                
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
