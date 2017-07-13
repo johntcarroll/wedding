@@ -1,5 +1,7 @@
 <?php
 //grab POST data
+print_r($_POST);
+echo "<br/>";
 $start_fname = ($_POST['start_fname'] ? $_POST['start_fname'] : NULL);
 $start_lname = ($_POST['start_lname'] ? $_POST['start_lname'] : NULL);
 $guests_attending = ($_POST['guests_attending'] ? $_POST['guests_attending'] : NULL);
@@ -34,6 +36,8 @@ if($start_fname && $start_lname && count($fnames) == $guests_attending && count(
 
     if($guests_attending > 0){
         for($x = $guests_attending - 1; $x--; $x >= 0){
+            echo $x;
+            echo "<br/>";
             $temp_guest = new Guest();
             $temp_guest->fname = $fnames[$x];
             $temp_guest->lname = $lnames[$x];
