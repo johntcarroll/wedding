@@ -10,7 +10,7 @@
         <meta property="og:image" content="">
         <meta name="description" content='Our wedding website!'>
         <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/bootstrap.min.css'>
-        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link rel='stylesheet' type='text/css' href='<?php echo $root; ?>css/style.css'>
         <script type='text/javascript' src='<?php echo $root; ?>js/jquery.min.js'></script>
@@ -58,6 +58,9 @@
                 <div class='col-xs-12 overlay-menu'>
                     <a class='overlay-link before after animated-link' href='<?php echo $root; ?>thankyou/'>Thank You</a>
                 </div>
+                <div class='col-xs-12 overlay-menu'>
+                    <a class='overlay-link before after animated-link' href='<?php echo $root; ?>rsvp/'>RSVP</a>
+                </div>
             </div>
             <div class='row top-nav'>
                 <div class='col-md-12  hidden-md hidden-sm hidden-xs'>
@@ -86,6 +89,9 @@
                         --><div class='col-md-1 big-nav-link vcenter'>
                             <a class='header-link before after animated-link' href='<?php echo $root; ?>thankyou/'>Thank you</a>
                         </div><!--
+                        --><div class='col-md-1 big-nav-link vcenter'>
+                            <a class='header-link before after animated-link' href='<?php echo $root; ?>rsvp/'>RSVP</a>
+                        </div><!--
                      --><div class='col-md-1 col-md-offet-1 vcenter'>
                          <h3 class="brand-link">#RohlinWithTheCarrolls</h3>
                         </div>
@@ -100,4 +106,3 @@
                     </div>
                 </div>
             </div>
-            

@@ -7,9 +7,10 @@
         <p><a class='header-link before after animated-link' href='<?php echo $root; ?>accommodations/'>Accommodations</a></p>
         <p><a class='header-link before after animated-link' href='<?php echo $root; ?>nearby/'>Nearby</a></p>
         <p><a class='header-link before after animated-link' href='<?php echo $root; ?>registry/'>Registry</a></p>
-         <p><a class='header-link before after animated-link' href='<?php echo $root; ?>thankyou/'>Thank You</a></p>
+        <p><a class='header-link before after animated-link' href='<?php echo $root; ?>thankyou/'>Thank You</a></p>
+        <p><a class='header-link before after animated-link' href='<?php echo $root; ?>rsvp/'>RSVP</a></p>
     </div><!--
- --><div class="col-xs-12 col-sm-4 vcenter">  
+ --><div class="col-xs-12 col-sm-4 vcenter">
         <div class="row">
             <div class="col-xs-6">
                 <img class="img img-responsive img-small img-center" src="../img/JL_Groom_color_1440x1440_001.png">
