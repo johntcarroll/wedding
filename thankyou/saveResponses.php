@@ -9,7 +9,7 @@ $foodoptions = ($_POST['foodoption'] ? $_POST['foodoption'] : array());
 $dietaries = ($_POST['dietary'] ? $_POST['dietary'] : array());
 $note = ($_POST['note'] ? $_POST['note'] : '');
 
-var_dump($guests_attending);
+var_dump((int)$guests_attending);
 
 //set up alert variables
 $alert = FALSE;
