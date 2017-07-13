@@ -3,13 +3,12 @@
 $start_fname = ($_POST['start_fname'] ? $_POST['start_fname'] : NULL);
 $start_lname = ($_POST['start_lname'] ? $_POST['start_lname'] : NULL);
 $guests_attending = ($_POST['guests_attending'] ? $_POST['guests_attending'] : NULL);
+$guests_attending = (int)$guests_attending;
 $fnames = ($_POST['fname'] ? $_POST['fname'] : array());
 $lnames = ($_POST['lname'] ? $_POST['lname'] : array());
 $foodoptions = ($_POST['foodoption'] ? $_POST['foodoption'] : array());
 $dietaries = ($_POST['dietary'] ? $_POST['dietary'] : array());
 $note = ($_POST['note'] ? $_POST['note'] : '');
-
-var_dump((int)$guests_attending);
 
 //set up alert variables
 $alert = FALSE;
