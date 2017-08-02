@@ -24,9 +24,9 @@ include "../layout/header.php";
             <input class='form-control required' name='start_lname' id='start_lname' />
         </div>
         <div class='col-sm-4 col-xs-12'>
-            <label>Number of Guests Attending</label>
+            <label>Number of Attendees</label>
             <select class='form-control' name='guests_attending' id='guests_attending'>
-                <option value='0'>0</option>
+                <option value='0'>0 (Regrets)</option>
                 <option value='1'>1</option>
                 <option value='2'>2</option>
                 <option value='3'>3</option>
